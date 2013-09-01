@@ -1,0 +1,51 @@
+//Dev Style Sheet using Flat UI Colors for Responsive Design
+
+//color
+$green: #2ecc71;
+$blue: #34495e;
+$yellow: #f1c40f;
+$red: #c0392b;
+$teal: #16a085;
+$white: #ecf0f1;
+$gray: #7f8c8d;
+
+
+.dev-bar {
+	position:fixed;
+	height:40px;
+	padding:10px;
+	top:0; 
+	width:100%;
+	color:$white;
+	@include background-opacity($red, 0.9);
+
+	p {float:left}
+	ul {float:left;
+		li {display:inline-block}
+	}
+	
+
+	@include respond(portrait-phones) {
+		@include background-opacity($green, 0.9);
+		.dev-breakpoint {content:'Small Phones';}
+	}
+
+	@include respond(landscape-phones) {
+		@include background-opacity($blue, 0.9);
+		ul .dev-breakpoint {content:'Large Phones';}
+	}
+
+	@include respond(tablets) {
+		@include background-opacity($yellow, 0.9);
+		ul .dev-breakpoint {content:'Tablets';}
+	}
+	
+	
+	@include respond(large-screen) {
+		background:$red;
+		ul .dev-breakpoint {content:'Large Screen';}
+	}
+
+}
+
+

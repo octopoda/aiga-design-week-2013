@@ -1,0 +1,70 @@
+/* Fonts */
+
+// Set local icon font
+@font-face {
+  font-family: '#{$icons}';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../css/fonts/icons/#{$icons}.eot);
+  src: url('../css/fonts/icons/#{$icons}.eot?#iefix') format('ie9-skip-eot'),
+       url('../css/fonts/icons/#{$icons}.woff') format('woff'),
+       url('../css/fonts/icons/#{$icons}.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Sans';
+    src: url('/fonts/bentonsans-regular.eot');
+    src: url('/fonts/bentonsans-regular.eot') format('embedded-opentype'),
+         url('/fonts/bentonsans-regular.woff') format('woff'),
+         url('/fonts/bentonsans-regular.ttf') format('truetype'),
+         url('/fonts/bentonsans-regular.svg#BentonSansRegular') format('svg');
+}
+
+
+
+@font-face {
+    font-family: 'Bold';
+    src: url('/fonts/bentonmoddisp-bold.eot');
+    src: url('/fonts/bentonmoddisp-bold.eot') format('embedded-opentype'),
+         url('/fonts/bentonmoddisp-bold.woff') format('woff'),
+         url('/fonts/bentonmoddisp-bold.ttf') format('truetype'),
+         url('/fonts/bentonmoddisp-bold.svg#BentonModDispBold') format('svg');
+}
+
+@font-face {
+    font-family: 'Condensed';
+    src: url('/fonts/bentonmoddispexcond-regular.eot');
+    src: url('/fonts/bentonmoddispexcond-regular.eot') format('embedded-opentype'),
+         url('/fonts/bentonmoddispexcond-regular.woff') format('woff'),
+         url('/fonts/bentonmoddispexcond-regular.ttf') format('truetype'),
+         url('/fonts/bentonmoddispexcond-regular.svg#BentonModDispExCondRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'Semibold';
+    src: url('/fonts/bentonmoddispexcond-semiboldit.eot');
+    src: url('/fonts/bentonmoddispexcond-semiboldit.eot') format('embedded-opentype'),
+         url('/fonts/bentonmoddispexcond-semiboldit.woff') format('woff'),
+         url('/fonts/bentonmoddispexcond-semiboldit.ttf') format('truetype'),
+         url('/fonts/bentonmoddispexcond-semiboldit.svg#BentonModDispExCondSemiboldIt') format('svg');
+}
+
+
+@font-face {
+    font-family: 'Sans Condensed';
+    src: url('/fonts/bentonsansextracomp-regular.eot');
+    src: url('/fonts/bentonsansextracomp-regular.eot') format('embedded-opentype'),
+         url('/fonts/bentonsansextracomp-regular.woff') format('woff'),
+         url('/fonts/bentonsansextracomp-regular.ttf') format('truetype'),
+         url('/fonts/bentonsansextracomp-regular.svg#BentonSansExtraCompRegular') format('svg');
+}
+
+
+@font-face {
+    font-family: 'Italic';
+    src: url('/fonts/bentonmoddisp-bolditalic.eot');
+    src: url('/fonts/bentonmoddisp-bolditalic.eot') format('embedded-opentype'),
+         url('/fonts/bentonmoddisp-bolditalic.woff') format('woff'),
+         url('/fonts/bentonmoddisp-bolditalic.ttf') format('truetype'),
+         url('/fonts/bentonmoddisp-bolditalic.svg#BentonModDispBoldItalic') format('svg');
+}

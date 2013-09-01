@@ -1,0 +1,22 @@
+<nav ng-controller="navigation"> 
+
+  <nav class="mobile-header">
+      <div><a href="#/app" class="mobile-logo" ng-click="clearDays()"></a></div>
+      <ul>
+          <li><a href="" class="nav-icon menu-button" ng-click="showMenu($event)"> <i class="icon-left-open"></i> {{ iconText }}</a></li>
+          <li><a href="http://aigadfw-tx.eventbrite.com/" class="nav-icon menu-button" target="_blank">Register </a></li>
+      </ul>
+  </nav>  
+
+  <section class="row nav-row">
+    <nav class="main-navigation navbar">
+      <ul>
+        <li ng-repeat="nav in items"><a ng-click="changeEvent(nav.date)">{{nav.day_title}}</a></li>
+        <li>Register</li>
+
+      </ul>
+    </nav>
+    
+
+  </section>
+</nav>

@@ -1,0 +1,117 @@
+.nav-header {@include clearfix(); height:100vh;
+
+    @include respond(portrait-tablets) {
+        margin-bottom:6em;
+    }
+
+    @include respond(tablet-above) {
+        width:30% !important;
+        float:left;
+    }    
+}
+
+
+.mobile-header { @include horizontal-gradient($orange, $pink);  width:100%; z-index:$modal-index;   min-height:5.5em;
+    ul { width:100%; margin:0; margin-top:10px; clear:both; background:$gray; @include horizontal-gradient(darken($orange, 12%), darken($pink, 12%)); position:absolute; bottom:0;
+        li {@include font-size($small); text-align:left; display:inline-block; width:48%;
+            a {color:$white; @include font-size($norm); text-align:left;}
+            &:last-child {text-align:right;}
+        }
+    }
+
+
+    .mobile-logo {display:block; margin-bottom:10px; text-indent:-999999px;  background:top center no-repeat; background-image:url(/images/mobile-header-logo@2x.png);  width:100%; height:85px; background-size:contain;
+        @include respond(portrait-tablets) {margin-top:8px;}
+        cursor:pointer;
+    }
+    
+    
+    @include respond(portrait-tablets) {
+        display:block;
+        position:fixed; top:0; left:0; padding-bottom:5px; height:10em;
+    }
+
+    @include respond(large-phones) {
+        height:9em;
+    }
+
+    @include respond(small-phones) {
+        height:8em;
+    }
+
+    @include respond(protrait-phones) {
+        height:7em;
+    }
+
+    display:none // Landscape Tablets and above
+
+}
+
+
+.nav-row {
+    @include respond(portrait-tablets) {@include clearMP(); height:0px;}
+}
+
+
+
+
+.main-navigation { z-index:$dropdown-index; height:100vh; background:$black; overflow:scroll;
+    
+    ul {@include clearMP; @include clearfix;  width:100%;
+        li { display:block; width:100%; padding:0px 30px; text-transform: uppercase; 
+            @include respond(small-phones) {padding:0px;}
+            a {display:block; font-family:$boldFont; cursor:pointer;  color:$white;
+                @include font-size(20px); //Font Size for Nav
+                @include respond(small-phones) {@include font-size(18px);}
+                &:hover, &.active {@include horizontal-gradient($orange, $darkOrange);}
+            }
+           
+
+        }
+    }
+
+ 
+
+    @include respond(tablets) {
+        width:100% !important; @include clearMP();   
+    }
+
+
+    @include respond(portrait-tablets) {
+         position:fixed !important; 
+         top:0; 
+         left:0;
+         
+        @include box-shadow(inset -5px 0px 5px rgba(0,0,0,0.2));
+        @include translate3d(-100%,0,0);
+        @include backface-visibility(hidden);
+        @include transformTransition(500ms);
+
+        ul {  height:100vh; @include clearfix;
+            li {display:block;  min-height:3em;
+                &.hide-phone {display:none;}
+            }
+        }
+    }
+
+    
+    @include respond(portrait-tablets) {width:30% !important;}
+    @include respond(large-phones) {  width:40% !important;}
+    @include respond(small-phones) {  width:60% !important;}
+}
+
+
+.nav-open {
+    .inner-wrap {
+        @include respond(portrait-tablets) { @include translate3d(30%,0,0);}
+        @include respond(small-phones) {  @include translate3d(60%,0,0);}
+        @include respond(large-phones) {  @include translate3d(40%,0,0);}
+    }
+
+    .main-navigation {position:fixed;}
+}
+
+
+
+
+

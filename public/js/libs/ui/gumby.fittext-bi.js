@@ -1,0 +1,6 @@
+/**
+* Gumby FitText
+*
+* Adapted from the awesome FitText jQuery plugin
+* brought to you by Paravel - http://paravelinc.com/
+*/!function(){"use strict";function e(e){this.$el=e;this.rate=0;this.fontSizes={};this.setup();var t=this;this.$el.on("gumby.initialize",function(){t.setup()});$(window).on("load resize orientationchange",function(){t.resize()})}e.prototype.setup=function(){this.rate=Number(Gumby.selectAttr.apply(this.$el,["rate"]))||1;this.fontSizes=this.parseSizes(Gumby.selectAttr.apply(this.$el,["sizes"]))};e.prototype.resize=function(){this.$el.css("font-size",this.calculateSize())};e.prototype.calculateSize=function(){return Math.max(Math.min(this.$el.width()/(this.rate*10),parseFloat(this.fontSizes.max)),parseFloat(this.fontSizes.min))};e.prototype.parseSizes=function(e){var t={min:Number.NEGATIVE_INFINITY,max:Number.POSITIVE_INFINITY};if(!e)return t;if(e.indexOf("|")>-1){e=e.split("|");t.min=Number(e[0])||t.min;t.max=Number(e[1])||t.max}t.min=Number(e)||t.min;return t};Gumby.addInitalisation("fittext",function(t){$(".fittext").each(function(){var n=$(this);if(n.data("isFittext")&&!t)return!0;if(n.data("isFittext")&&t){n.trigger("gumby.initialize");return!0}n.data("isFittext",!0);new e(n)})});Gumby.UIModule({module:"fittext",events:[],init:function(){Gumby.initialize("fittext")}})}();

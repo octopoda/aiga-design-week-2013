@@ -1,0 +1,196 @@
+<div>
+
+<article class="schedule-listing" id="scheduleListing">
+	<img ng-show="loadingList" src="/images/loading.gif">
+	<section ng-repeat="day in schedule | filter:day_id" id="listing" >
+ 		<header class="sticky-title">{{day.day_name}} {{day.day_title}}</header>
+ 		<ul>
+ 			<li ng-repeat="event in day.activity" ng-click="changeEvent(event.id)">
+				<h4>{{event.name}}</h4>
+				<i class="icon-right-open-big"></i>
+			</li>
+ 		</ul>
+ 	</section>
+</article>
+
+
+
+
+
+
+
+
+<!-- Templates for Events -->
+<article  class="event-listing" id="eventListing">
+	<img ng-show="polling" src="/images/loading.gif">
+	
+
+	<section ng-hide="polling" ng-switch="evt.page_type">
+	
+		<!-- Page Type 1 : Normal Event -->
+		<div ng-switch-when="1">
+			<header >
+				<!-- Close Navigation  -->
+				<nav class="shareButtons">
+					<ul>
+						<li><i></i></li> <!-- class="icon-heart" -->
+						<li ng-click="back()"><i class="icon-cancel-circled"></i></li>
+					</ul>
+				</nav>
+				
+				<!-- Haeder Image -->
+				<img src="{{ evt.image }}" gumby-retina>
+				<ul class="event-time">
+					<li>{{ twelveTime(evt.start_time)}} - {{twelveTime(evt.end_time)}} </li>
+					<li>{{evt.venue.name}}</li>
+					<li><a href="{{evt.register_link}}" target="_blank">REGISTER</a></li>
+				</ul>
+			</header>
+			
+			<div class="sticky-title content">Event Description</div>
+			<section ng-show="evt.description" class="content" ng-bind-html-unsafe="evt.description"></section>
+			
+
+			<div class="sticky-title" ng-show="evt.speaker.name">Presenter</div>
+			<section ng-show="evt.speaker.name" class="content">
+				
+				<h4>{{evt.speaker.name}}</h4>
+				<p>{{evt.speaker.description}}</p>
+			</section>
+
+			<div class="sticky-title" ng-show="evt.venue.name">Venue</div>
+			<a href="{{ evt.venue.link }}" target="_blank"><img src="{{ evt.venue.image}}" gumby-retina></a>
+			<section ng-show="evt.venue.name" class="content">
+				<h4>{{evt.venue.name}}</h4>
+				<p>{{ evt.venue.description }}</p>
+				<address>
+					{{evt.venue.address_1}} <br>
+					{{evt.venue.city}}
+				</address>
+			</section>
+		</div>
+
+
+
+<!-- Page Type 2 : Studio Tours -->
+		<div ng-switch-when="2">
+			<header >
+				<nav class="shareButtons">
+					<ul>
+						<li ng-click="back()"><i class="icon-cancel-circled"></i></li>
+					</ul>
+				</nav>
+				
+				<img src="{{ evt.image }}" gumby-retina>
+				<ul class="event-time">
+					<li>{{ twelveTime(evt.start_time)}} - {{twelveTime(evt.end_time)}} </li>
+					<li>{{evt.venue.name}}</li>
+					<li><a href="{{evt.register_link}}" target="_blank">REGISTER</a></li>
+				</ul>
+
+				
+				<div ng-bind-html-unsafe="evt.description" class="content"></div>
+			</header>
+
+			<div ng-repeat="stud in evt.studio" class="studio-wrapper">
+				
+				<div class="sticky-title">{{ stud.name}}</div>
+				<img src="{{stud.image}}" >
+				<section class="content" ng-bind-html-unsafe="stud.description"></section>
+				
+
+				<div class="sticky-title">Location</div>
+				<section class="content">
+					<a href="{{stud.map_link}}" class="studio-link" target="_blank">
+						<address>
+							{{stud.address1}}
+							{{stud.address2}}<br>
+							{{stud.city}}, {{stud.state}} {{stud.zip}}
+						</address>
+					</a>
+				</section>
+			</div>
+			
+		</div>
+
+
+
+
+
+<!-- Page Type 3 : DB Talks -->
+		<div ng-switch-when="3" ng-init="getTalks(evt.id)">
+			<header>
+				<nav class="shareButtons">
+					<ul>
+						<li ng-click="back()"><i class="icon-cancel-circled"></i></li>
+					</ul>
+				</nav>
+				
+				<img src="{{ evt.image }}" gumby-retina>
+				<ul class="event-time">
+					<li>6:00 PM Reception / {{ twelveTime(evt.start_time)}} Talks </li>
+					<li>{{evt.venue.name}}</li>
+					<li><a href="{{evt.register_link}}" target="_blank">REGISTER</a></li>
+				</ul>
+
+				<p class="content">Each evening of Design:Big Week, we've organized 4 talks centered around one conversation. At the end of the 4 talks, we ask each of the speakers to participate in a panel to show the correlations between each of their goals and missions. Attendees will leave with a better understanding of how design, whether by practice, process or advocacy, can positively affect our communities and DFW as a whole.</p>
+				
+				<div class="content" ng-bind-html-unsafe="evt.description"></div>
+			</header>
+			<!-- Talks -->
+			<div ng-repeat="t in talks" >
+				<div class="sticky-title">{{ t.title }}</div>
+				<ul class="speaker-list">
+					<li ng-repeat="speaker in t.speaker" class="db-talks-speaker">
+						<a href="{{speaker.link}}"> <img src="{{speaker.image}}" alt="{{speaker.name}}">
+							<h4>{{speaker.name}} / {{speaker.title}}</h4>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<p class="content">Design and the design process can affect change and promote the organizations aligned with it. To further engage our audiences into an increased understanding and appreciation of our profession and process, each talk is structured along the lines of our profession&rsquo;s &ldquo;creative brief.&rdquo; </p>
+
+			<p class="content">Like our speakers, design is about creating &ldquo;solutions&rdquo; rather than &ldquo;artifacts.&rdquo; In our practice, projects starts with a &ldquo;creative briefs&rdquo; — which offer insights and guidance on how to take projects from initial concept to successful completion. The intricate collaborative partnership between designer and client must begin with an articulated set of objectives and goals. Briefs summarize of all the factors that can impact a design project.</p>
+
+			<p class="content">Though all of our speakers may not have kicked off their endeavors with a creative brief, we want to empower our community with the notion of our process&rsquo;s relevance outside of our profession. We also want to educate present and future design advocates about the importance of design thinking.</p>
+
+			<div class="sticky-title" ng-show="evt.venue.name">Venue</div>
+			<a href="{{ evt.venue.link }}" target="_blank"><img src="{{ evt.venue.image}}" gumby-retina></a>
+			<section ng-show="evt.venue.name" class="content">
+				<h4>{{evt.venue.name}}</h4>
+				<p>{{ evt.venue.description }}</p>
+				<address>
+					{{evt.venue.address_1}} <br>
+					{{evt.venue.city}}
+				</address>
+			</section>
+		</div>
+
+
+
+		<!-- Page Type 4 : Sponsors -->
+		<div ng-switch-when="4">
+			<header >
+				<!-- Close Navigation  -->
+				<nav class="shareButtons">
+					<ul>
+						<li><i></i></li> <!-- class="icon-heart" -->
+						<li ng-click="back()"><i class="icon-cancel-circled"></i></li>
+					</ul>
+				</nav>
+				
+				<!-- Haeder Image -->
+				<img src="{{ evt.image }}" gumby-retina>
+			</header>
+			
+			<div class="sticky-title">Our Sponsors</div>
+		</div>
+
+
+		<!-- Page Type 5 : Fellow Awards -->
+
+
+ 	</section>
+</article>
+</div>

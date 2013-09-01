@@ -1,0 +1,173 @@
+// Welcome to Gumby 2.0 Settings.
+// Happy Tinkering!
+@import "compass/css3/images";
+
+//Colors
+$red: #ed1c24;
+$darkRed: #af1015;
+$green: #8dc642;
+$darkGreen: #138239;
+$lightGray: #efeff4;
+$gray: #808080;
+$blue: #26aae1;
+$darkBlue: #008fd3;
+$purple: #9f2064;
+$pink: #ee287d;
+$orange: #fbaf41;
+$darkOrange: #f67811;
+$yellow: #FCEE21;
+$white: #FFFFFF;
+$black: #000; 
+
+//Fonts
+$boldFont: 'Bold', serif;
+$condensedFont: 'Condensed',  serif; 
+$italicFont: 'Italic', serif; 
+$semiboldFont: 'Semibold',  serif;
+$sansFont: 'Sans', sans-serif;
+$sanscondensedFont: 'Sans Condensed', sans-serif;
+
+
+
+// Grid Settings
+$row-max-width: 1140px !default;    				// 940px
+$gutter-in-px: 0px !default;      				// 20px
+$cols: 12 !default;              				// 12 Column Default Grid
+$hybrid: 16 !default;							// 16 Column Default Hybrid Grid
+
+// Responsiveness Settings
+$min-device-width: 320px; 						// iPhone Portrait
+$tablet-device-width: 768px;					// iPad Portrait
+$smaller-phone-width: 510px;
+$document-width: $row-max-width;				// Default Document
+$max-device-width: 2880px;						// Max Document Size
+
+// Spacing
+$nav-distance: 0px; 							// Navigation distance from the top of the viewport
+
+
+// Typography
+$font-family: $sansFont;
+$font-style-italic: italic;
+$icons: entypo;
+$font-smoothing: antialiased;
+
+// Font Weights
+$font-weight-bold: 700;
+$font-weight-semibold: 600;
+$font-weight-medium: 400;
+$font-weight-regular: 400;
+$font-weight-light: 300;
+$font-weight-thin: 300;
+
+$header-font-weight: $font-weight-thin;
+$body-font-weight: $font-weight-regular;
+$type-font-weight: $font-weight-regular;
+$link-font-weight: $font-weight-regular;
+$button-font-weight: $font-weight-semibold;
+$tabs-font-weight: $font-weight-semibold;
+
+// Vertical Rhythm Spacing
+$base-line-height: ms(1) !default;
+$rhythm-spacing: .168;
+$rhythm-height: .711;
+
+// Modular Scale Settings
+// http://www.modularscale.com by Tim Brown
+// https://github.com/scottkellum/modular-scale
+$ratio: golden();						// Ratio for Modular Scale
+$base-font-size: 16px !default;
+$importantNum: 78px !default;
+$base-size: $base-font-size $importantNum;
+// Gumby Default Scale Values: 16, 18, 26, 30, 42, 48, 68, 78, 110, 126;
+
+// Sizing
+$xsmall: ms(-2);
+$small: ms(-1);
+$norm: ms(0);									// $base-font-size (16px == default)
+$med: ms(1);
+$large: ms(2);
+$larger: ms(3);
+$xlarge: ms(4);
+$xxlarge: ms(5);
+$xxxlarge: ms(6);
+$reallybig: ms(8);
+$tremendous: ms(9);
+$absurd: ms(10);
+
+
+// Typography Colors
+$header-font-color: $black !default;
+$header-link-color: $green !default;
+$header-link-hover-color: $orange !default;
+$body-font-color: $black  !default;
+$body-link-color: $purple !default;
+$body-link-hover-color: $red !default;
+
+// User Interface Colors
+$global-bg-color: $white;
+$navbar-color: $white;
+$navbar-link-color: $blue;
+
+$input-background: $white;
+$input-color: $black;
+
+$primary-color: $blue;
+$secondary-color: $purple;
+$default-color: $orange;
+$info-color: $gray;
+$danger-color: $red;
+$warning-color: $yellow;
+$success-color: $green;
+
+$primary-hover-color: darken($blue, 10%);
+$secondary-hover-color: darken($purple, 10%);
+$default-hover-color: darken($orange, 10%);
+$info-hover-color: darken($gray, 10%);
+$danger-hover-color: darken($red, 10%);
+$warning-hover-color: darken($yellow, 10%);
+$success-hover-color: darken($green, 10%);
+
+$horizontal-rule-color: #ccc !default;
+
+
+
+// Borders
+$button-radius: 0 !default;
+$metro-radius: 0 !default;
+$bigger-radius: 0px;
+
+// Buttons
+// Font Sizing
+$xlarge-button-font-size: $larger;
+$large-button-font-size: $large;
+$medium-button-font-size: $norm;
+$small-button-font-size: $small;
+// Padding
+$default-button-padding: $med;
+// Height
+$default-button-height: 36px;
+
+// Tabs
+$tab-height: 42px;
+
+// Drawers & Modals
+$modal-overlay-color: rgba(0, 0, 0, 0.8);
+$modal-window-color: $white;
+$drawer-background-color: #3e4144;
+$drawer-inner-shadow-x-offset: 0;
+$drawer-inner-shadow-y-offset: 2px;
+$drawer-inner-shadow-blur: 5px;
+$drawer-inner-shadow-color: #313436;
+
+// Floats
+$default-float: left;
+$switch-float: right;
+
+//Z index
+$base-index: 1;
+$navbar-index: 100;
+$dropdown-index: 200;
+$modal-index: 700;
+
+

@@ -1,0 +1,23 @@
+//RGBA Mixin
+
+@mixin background-opacity($color, $opacity: 0.3) {
+    background: $color; /* The Fallback */
+    background: rgba($color, $opacity);
+}
+
+
+@mixin orangeToPink() {
+	@include background-image(linear-gradient(left, $orange, $pink)); 
+}
+
+@mixin greenToPurple() {
+	@include background-image(linear-gradient(left, $green, $purple));
+}
+
+@mixin vertical-gradient($color-one, $color-two) {
+	@include background-image(linear-gradient($color-one, $color-two));	
+}
+
+@mixin horizontal-gradient($color-one, $color-two) {
+	@include background-image(linear-gradient(left, $color-one, $color-two));	
+}
