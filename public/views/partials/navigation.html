@@ -9,11 +9,9 @@
   </nav>  
 
   <section class="row nav-row">
-    <nav class="main-navigation navbar">
+    <nav class="main-navigation">
       <ul>
-        <li ng-repeat="nav in items"><a ng-click="changeEvent(nav.date)">{{nav.day_title}}</a></li>
-        <li>Register</li>
-
+        <li ng-repeat="nav in items"><a ng-click="changeEvent(nav.date)">{{nav.day_name}} <br/>{{nav.day_title}}</a></li>
       </ul>
     </nav>
     

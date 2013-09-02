@@ -57,13 +57,15 @@
 
 .main-navigation { z-index:$dropdown-index; height:100vh; background:$black; overflow:scroll;
     
-    ul {@include clearMP; @include clearfix;  width:100%;
-        li { display:block; width:100%; padding:0px 30px; text-transform: uppercase; 
+    ul {@include clearMP; @include clearfix;  width:100%; background:$gray;
+        li { @include clearMP(); display:block; width:100%; text-transform: uppercase; border-bottom:1px solid white;
             @include respond(small-phones) {padding:0px;}
-            a {display:block; font-family:$boldFont; cursor:pointer;  color:$white;
-                @include font-size(20px); //Font Size for Nav
-                @include respond(small-phones) {@include font-size(18px);}
-                &:hover, &.active {@include horizontal-gradient($orange, $darkOrange);}
+            a {font-family:$sansFont; cursor:pointer;  color:$white; width:100%;
+                @include font-size(16px); //Font Size for Nav
+                display:block; padding:10px 30px;
+                line-height:17px;
+                @include respond(small-phones) {@include font-size(16px); padding:10px 20px;}
+                &:hover, &.active {background:$orange !important; color:$white;}
             }
            
 
