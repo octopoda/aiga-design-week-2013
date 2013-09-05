@@ -22,8 +22,12 @@ class ActivityController extends BaseController {
 	 */
 	public function index()
 	{
-		$this->activity->findAll();
+		return $this->activity->findAll();
 
+	}
+
+	public function getSponsors($id) {
+		return $this->activity->findSponsors($id);
 	}
 
 	/**

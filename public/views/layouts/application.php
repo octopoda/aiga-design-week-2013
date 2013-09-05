@@ -1,6 +1,5 @@
 
 <!DOCTYPE html>
-
 <html ng-app="dw_schedule">
     <head>  
         <!-- meta content -->
@@ -55,7 +54,7 @@
                 <div class="danger alert" id="flash" ng-show="flash">{{ flash }}</div>
             </section>
             
-            <section class="row">
+            <section class="row content-row">
                 <header ng-include src="navigation.url" class="nav-header"></header>
                 <div class="angular" id"view" ng-view></div>  
             </section>

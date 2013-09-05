@@ -71,6 +71,7 @@ html, body {
 }
 
 
-.outer-wrap { position:relative; overflow:hidden; width:100vw; height:100vh; }
-.inner-wrap { position:relative;  width:100%; height:100vh; left:0; @include transformTransition(500ms); }
+.outer-wrap { position:relative;  width:100%; height:100%; overflow:hidden;}
+.inner-wrap { position:relative;  width:100%; height:100%; left:0; @include transformTransition(500ms); }
+.content-row {position:relative; width:100%; height:100%; }
 

@@ -58,7 +58,7 @@
 				<p>{{evt.speaker.description}}</p>
 			</section>
 
-			<div class="sticky-title" ng-show="evt.venue.name">Venue</div>
+			<div class="sticky-title image-below">Venue</div>
 			<a href="{{ evt.venue.link }}" target="_blank"><img src="{{ evt.venue.image}}" gumby-retina></a>
 			<section ng-show="evt.venue.name" class="content">
 				<h4>{{evt.venue.name}}</h4>
@@ -94,7 +94,7 @@
 
 			<div ng-repeat="stud in evt.studio" class="studio-wrapper">
 				
-				<div class="sticky-title">{{ stud.name}}</div>
+				<div class="sticky-title image-below">{{ stud.name}}</div>
 				<img src="{{stud.image}}" >
 				<section class="content" ng-bind-html-unsafe="stud.description"></section>
 				
@@ -139,7 +139,7 @@
 			</header>
 			<!-- Talks -->
 			<div ng-repeat="t in talks" >
-				<div class="sticky-title">{{ t.title }}</div>
+				<div class="sticky-title image-below">{{ t.title }}</div>
 				<ul class="speaker-list">
 					<li ng-repeat="speaker in t.speaker" class="db-talks-speaker">
 						<a href="{{speaker.link}}"> <img src="{{speaker.image}}" alt="{{speaker.name}}">
@@ -149,13 +149,13 @@
 				</ul>
 			</div>
 
-			<p class="content">Design and the design process can affect change and promote the organizations aligned with it. To further engage our audiences into an increased understanding and appreciation of our profession and process, each talk is structured along the lines of our profession&rsquo;s &ldquo;creative brief.&rdquo; </p>
+			<p class="content" style="margin-top:1em;">Design and the design process can affect change and promote the organizations aligned with it. To further engage our audiences into an increased understanding and appreciation of our profession and process, each talk is structured along the lines of our profession&rsquo;s &ldquo;creative brief.&rdquo; </p>
 
 			<p class="content">Like our speakers, design is about creating &ldquo;solutions&rdquo; rather than &ldquo;artifacts.&rdquo; In our practice, projects starts with a &ldquo;creative briefs&rdquo; — which offer insights and guidance on how to take projects from initial concept to successful completion. The intricate collaborative partnership between designer and client must begin with an articulated set of objectives and goals. Briefs summarize of all the factors that can impact a design project.</p>
 
 			<p class="content">Though all of our speakers may not have kicked off their endeavors with a creative brief, we want to empower our community with the notion of our process&rsquo;s relevance outside of our profession. We also want to educate present and future design advocates about the importance of design thinking.</p>
 
-			<div class="sticky-title" ng-show="evt.venue.name">Venue</div>
+			<div class="sticky-title image-below" ng-show="evt.venue.name">Venue</div>
 			<a href="{{ evt.venue.link }}" target="_blank"><img src="{{ evt.venue.image}}" gumby-retina></a>
 			<section ng-show="evt.venue.name" class="content">
 				<h4>{{evt.venue.name}}</h4>
@@ -170,21 +170,27 @@
 
 
 		<!-- Page Type 4 : Sponsors -->
-		<div ng-switch-when="4">
+		<div ng-switch-when="4" ng-init="getSponsors(evt.id)">
 			<header >
 				<!-- Close Navigation  -->
 				<nav class="shareButtons">
 					<ul>
-						<li><i></i></li> <!-- class="icon-heart" -->
 						<li ng-click="back()"><i class="icon-cancel-circled"></i></li>
 					</ul>
 				</nav>
 				
-				<!-- Haeder Image -->
 				<img src="{{ evt.image }}" gumby-retina>
+				
 			</header>
 			
-			<div class="sticky-title">Our Sponsors</div>
+			
+			<ul class="sponsor-list">
+				<li ng-repeat="s in sponsors.sponsor">
+					<div class="sticky-title">{{s.name}}</div>
+					<a href="{{s.link}}"><img src="{{s.image}}"></a>
+					
+				</li>
+			</ul>
 		</div>
 
 

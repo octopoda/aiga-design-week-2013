@@ -1,4 +1,4 @@
-.load-screen {height:100vh; width:100vw; @include horizontal-gradient($orange, $pink); z-index:20000; position:fixed;  
+.load-screen {height:100%; width:100; @include horizontal-gradient($orange, $pink); z-index:20000; position:fixed;  
 	.center-image {
 		background-image:url(/images/header-logo@2x.png); background-position:center center; background-repeat:no-repeat; background-size:contain; margin:auto; height:20%; position:absolute; top:50%; left:50%; @include transformTranslate(-50%, -50%); width:50%; 
 		@include respond(small-phones) {width:100%; height:40%;}
@@ -8,7 +8,8 @@
 
 .register-button {border:1px solid black; height:100px; width:100%;}
 
-.desktop-header {@include horizontal-gradient($orange, $pink); padding:30px;  position:relative;
+.desktop-header { @include horizontal-gradient($orange, $pink); 
+ padding:30px;  position:relative;
 	h1.mobile-logo {display:block;  text-indent:-999999px;  background:top center no-repeat; background-image:url(/images/header-logo@2x.png);  width:100%; height:170px; background-size:contain;}
 
 	//@include respond(all-phones) {display:none;}
@@ -18,12 +19,13 @@
 }
 
 
+
 .angular {
 	position:relative; background:$white;
 	
 	@include respond(portrait-tablets) {
 		width:100% !important;
-		height:95vh !important;
+		height:100% !important;
 		position:absolute;
 		top:4.7em;
 		overflow-x:hidden;
@@ -43,6 +45,10 @@
 	@include respond(tablet-above) {
 		float:left; 
 		width:70%;
+		height:100%;
+		overflow-x:hidden;
+		overflow-y:scroll;
+		-webkit-overflow-scrolling:touch;
 	}
 
 
@@ -53,7 +59,7 @@
 //Globals
 .sticky-title  {width:100%;  @include horizontal-gradient($orange, $darkOrange);  font-family:$boldFont; font-size:$norm+4; padding-left:10px; text-transform:uppercase; padding-top:0px; color:$white; overflow:hidden;}
 
-.schedule-listing {
+.schedule-listing { overflow-x:scroll;
 	ul {@include clearMP;
 		li {font-family:$sanscondensedFont; border-bottom:1px solid $white;  @include clearfix;  padding:0 30px; position:relative; @include horizontal-gradient($blue, $darkBlue);
 			h4 {font-size:$med; cursor:pointer; @include clearMP; float:left; width:70%; margin:15px 0; color:$white; }
@@ -75,12 +81,9 @@
 	@include respond(tablet-above) {
 		width:100%;
 		float:left;
-		height:100vh; 
-		overflow-x:hidden;
-		overflow-y:scroll;
-		-webkit-overflow-scrolling:touch;
-
-		padding-bottom:150px;
+		height:100vh;
+		
+		padding-bottom:230px;
 		
 		//Animation
 		@include transition(width, 500ms);	
@@ -92,14 +95,23 @@
 		position:absolute;
 		top:5.3em;
 		width:100%;
-		height:100vh;
-		padding-bottom:60px;
-
-		
+		height:85%;
+		padding-bottom:0px;
+	
 		//Animations
 		@include transformTransition(1s); 
 		@include translate3d(0%,0,0);	
 		
+	}
+
+	@include respond(large-phones) {
+		height:80%;
+		padding-bottom:10px;
+	}
+
+	@include respond(small-phones) {
+		height:77%;
+		padding-bottom:40px;
 	}
 
 	
@@ -107,13 +119,12 @@
 	
 }
 
-.event-listing {background:$white; height:100vh; padding-bottom:200px; position:relative;
-	.sticky-title {background:$pink; color:darken($pink, 20%); @include font-size($large + 10); padding:10px !important;
-		&.content {margin-bottom:1em;}
-
+.event-listing {background:$white; height:100%; padding-bottom:200px; position:relative;
+	.sticky-title {background:$pink; color:darken($pink, 20%); @include font-size($large + 10); padding:10px !important; margin:1em 0px;
+		&.image-below {margin-bottom:0 !important;}
 	}
 
-	.event-time {padding-left:20px; @include font-size($large - 5); color:$pink; text-transform:uppercase; }
+	.event-time {margin:1em 0; padding-left:20px; @include font-size($large - 5); color:$pink; text-transform:uppercase; }
 
 	.studio-wrapper {
 		img {margin-bottom:0;}
@@ -130,6 +141,15 @@
 
 
 	}
+
+	.sponsor-list {
+		li { text-align:center;
+			.sticky-title {text-align:left;}
+			img { width:60%; margin:auto;}
+		}
+	}
+
+	img {margin-bottom:1em;}
 
 	.speaker-list {margin-bottom:0;}
 
@@ -157,6 +177,8 @@
 		width:20%;
 		float:right;
 		opacity:0;
+		height:100%;
+		
 		overflow-x:hidden; 
 		overflow-y:scroll;
 		-webkit-overflow-scrolling:touch;
@@ -188,6 +210,10 @@
 		//Animations
 		@include transformTransition(1s); 
 		@include translate3d(100%,0,0);	
+	}
+
+	@include respond(large-phones){
+		margin-top:40px;
 	}
 
 	

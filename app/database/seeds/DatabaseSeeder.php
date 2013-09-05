@@ -19,6 +19,7 @@ class DatabaseSeeder extends Seeder {
 		$this->call('DaysTableSeeder');
 		$this->call('StudiosTableSeeder');
 		$this->call('TalkTableSeeder');
+		$this->call('Activity_sponsorsTableSeeder');
 	}
 
 }

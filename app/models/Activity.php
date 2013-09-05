@@ -35,5 +35,9 @@ class Activity extends Eloquent {
 		return $this->hasMany('Studio');
 	}
 
+	public function sponsor() {
+		return $this->belongsToMany('Sponsor', 'activity_sponsor');
+	}
+
 	
 }

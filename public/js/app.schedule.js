@@ -21,7 +21,7 @@ dw.factory('EventService', function ($http, $rootScope, PollingService, FlashSer
             return new EventService(response.data);
         }, function (response) {
             //Place in Flash
-            FlashService.show('There was an issue finding the event data.  Please try again or alert someone in the aiga.');
+            FlashService.show('Bloody Hell!  You aren\'t supposed to see this.  You should be seeing Events Right now!');
         });
     }
 
@@ -78,16 +78,34 @@ dw.factory('TalkService', function ($rootScope, $http, PollingService, FlashServ
             PollingService.setFalse();
             return new TalkService(response.data);
         }, function(response) {
-            FlashService.show('There was an issue finding the talk data.  Please try again or alert someone in the aiga.')
+            FlashService.show('Damn it!  The talk data was here just a second ago.  Where did it go?');
         });
     }
 
     return TalkService;
 });
 
+dw.factory('SponsorService', function ($rootScope, $http, PollingService, FlashService) {
+    var SponsorService = function (data) {
+        angular.extend(this, data);
+    }
+
+    SponsorService.prototype.get = function (_id) {
+        PollingService.setTrue();
+        return $http.get('/api/sponsors/'+_id).then(function (response) {
+            PollingService.setFalse();
+            return new SponsorService(response.data);
+        }, function(response) {
+            FlashService.show('Oh Shit! I can\'t find the sponsor data.  I am going to get fired for this.');
+        });
+    }
+
+    return SponsorService;
+});
 
 
-dw.controller('main-schedule',  function ($scope, $rootScope, _S, EventService, SharedService, iconService, PollingService, TalkService) {
+
+dw.controller('main-schedule',  function ($scope, $rootScope, _S, EventService, SharedService, iconService, PollingService, TalkService, SponsorService) {
     
     //Get the Schedule
     PollingService.setTrue();
@@ -106,6 +124,7 @@ dw.controller('main-schedule',  function ($scope, $rootScope, _S, EventService, 
     //Set up $http Services
     var event_start = new EventService();
     var talk_start = new TalkService();
+    var sponsor_start =  new SponsorService();
 
     
     //User Clicks Event  - function changes event page
@@ -139,6 +158,10 @@ dw.controller('main-schedule',  function ($scope, $rootScope, _S, EventService, 
     //Grabs the speakers for each talk
     $scope.getTalks = function (_id) {
         $scope.talks = talk_start.get(_id);
+    }
+
+    $scope.getSponsors = function (_id)  {
+        $scope.sponsors = sponsor_start.get(_id);
     }
 
 

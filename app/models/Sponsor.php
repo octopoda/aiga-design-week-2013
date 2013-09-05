@@ -11,4 +11,8 @@ class Sponsor extends Eloquent {
 		'description'=>'required' 
 	);
 
+	public function activity() {
+		return $this->belongsToMany('Activity', 'activity_sponsor');
+	}
+
 }

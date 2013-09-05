@@ -68,9 +68,9 @@ class SpeakersTableSeeder extends Seeder {
 
 			array(
 				'name'=>'Suzanne Larkin',
-				'title'=>'SMU',
-				'link'=>'',
-				'image'=>'',
+				'title'=>'Adjunct Lecturer, SMU Meadows School of the Arts',
+				'link'=>'http://aigadfwdw.org/post/60155992737/suzanne-larkin-adjunct-lecturer-smu-meadows',
+				'image'=>'/images/speakers/suzanne-larkin.png',
 				'talk_id'=>'6'
 			),			
 
@@ -99,16 +99,23 @@ class SpeakersTableSeeder extends Seeder {
 			),	
 			array(
 				'name'=>'Casey McGarr',
-				'title'=>' Inky Lips Press',
-				'link'=>'',
-				'image'=>'',
+				'title'=>'Assistant Professor of Graphic Design at Texas A&M University – Commerce and Founder Inky Lips Letterpress',
+				'link'=>'http://aigadfwdw.org/post/60156166547/casey-mcgarr-assistant-professor-of-graphic',
+				'image'=>'/images/speakers/casey-mcgarr.png',
 				'talk_id'=>'10'
 			),	
 			array(
 				'name'=>'Chad Houser',
-				'title'=>'Cafe Momentum',
-				'link'=>'',
-				'image'=>'',
+				'title'=>'Executive Director/Chef, Cafe Momentum',
+				'link'=>'http://aigadfwdw.org/post/60156487406/chad-houser-executive-director-chef-cafe',
+				'image'=>'/images/speakers/chad-houser.png',
+				'talk_id'=>'11'
+			),	
+			array(
+				'name'=>'Christian Yazdanpanah',
+				'title'=>'Director of Positive Impact / MEplusYou Agency',
+				'link'=>'http://aigadfwdw.org/post/60162403798/christian-yazdanpanah-director-of-positive-impact',
+				'image'=>'/images/speakers/christian-yazdanpanah.png',
 				'talk_id'=>'11'
 			),			
 
@@ -127,7 +134,15 @@ class SpeakersTableSeeder extends Seeder {
 				'link'=>'http://aigadfwdw.org/post/58046057127/sung-kim-senior-designer-rockfish-interactive',
 				'image'=>'/images/speakers/sung-kim.png',
 				'talk_id'=>'13'
-			),					
+			),	
+
+			array(
+				'name'=>'John Keehler ',
+				'title'=>'Director, Digital Strategy and Emerging Platforms / The Richards Group',
+				'link'=>'http://aigadfwdw.org/post/60221910888/john-keehler-director-digital-strategy-and',
+				'image'=>'/images/speakers/john-keehler.png',
+				'talk_id'=>'22'
+			),	
 
 
 			//Friday 
@@ -169,8 +184,8 @@ Director / CVAD Design Research Center ',
 			),	
 			array(
 				'name'=>'Meagan Mead',
-				'title'=>'',
-				'link'=>'',
+				'title'=>'Art Director/Designer /Creative Suitcase',
+				'link'=>'http://aigadfwdw.org/post/60161283399/tue-sept-24-12pm-1-30pm-2625-main-st',
 				'image'=>'/images/speakers/',
 				'talk_id'=>'17'
 			),	

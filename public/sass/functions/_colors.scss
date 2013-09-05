@@ -19,5 +19,7 @@
 }
 
 @mixin horizontal-gradient($color-one, $color-two) {
-	@include background-image(linear-gradient(left, $color-one, $color-two));	
+	background:$color-one;	
+	@include background-image(linear-gradient(left, $color-one, $color-two));
+	@include filter-gradient($color-one, $color-two);
 }

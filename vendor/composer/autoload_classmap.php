@@ -9,6 +9,8 @@ return array(
     'ActivitiesTableSeeder' => $baseDir . '/app/database/seeds/ActivitiesTableSeeder.php',
     'Activity' => $baseDir . '/app/models/Activity.php',
     'ActivityRepositoryInterface' => $baseDir . '/app/repositories/ActivityRepositoryInterface.php',
+    'ActivitySponsors' => $baseDir . '/app/database/migrations/2013_09_05_204404_activity_sponsors.php',
+    'Activity_sponsorsTableSeeder' => $baseDir . '/app/database/seeds/Activity_sponsorsTableSeeder.php',
     'BaseController' => $baseDir . '/app/controllers/BaseController.php',
     'BaseFacebook' => $vendorDir . '/facebook/php-sdk/src/base_facebook.php',
     'Behat\\Mink\\ClassLoader\\MapFileClassLoader' => $vendorDir . '/behat/mink/src/Behat/Mink/ClassLoader/MapFileClassLoader.php',

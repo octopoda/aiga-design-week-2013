@@ -1,4 +1,4 @@
-.nav-header {@include clearfix(); height:100vh;
+.nav-header {@include clearfix(); @include clearMP(); height:100% !important; background:$gray;
 
     @include respond(portrait-tablets) {
         margin-bottom:6em;
@@ -28,7 +28,10 @@
     
     @include respond(portrait-tablets) {
         display:block;
-        position:fixed; top:0; left:0; padding-bottom:5px; height:10em;
+        //position:fixed; 
+        position:absolute;
+        top:0; left:0; 
+        padding-bottom:5px; height:10em;
     }
 
     @include respond(large-phones) {
@@ -39,8 +42,8 @@
         height:8em;
     }
 
-    @include respond(protrait-phones) {
-        height:7em;
+    @include respond(portrait-phones) {
+        height:7.7em;
     }
 
     display:none // Landscape Tablets and above
@@ -48,16 +51,16 @@
 }
 
 
-.nav-row {
+.nav-row {@include clearMP();
     @include respond(portrait-tablets) {@include clearMP(); height:0px;}
 }
 
 
 
 
-.main-navigation { z-index:$dropdown-index; height:100vh; background:$black; overflow:scroll;
+.main-navigation { z-index:$dropdown-index; height:100%; background:$gray; @include clearMP(); padding:0; margin:0; overflow-y:auto; overflow-x:hidden;
     
-    ul {@include clearMP; @include clearfix;  width:100%; background:$gray;
+    ul {@include clearMP; width:100% !important; background:$gray;
         li { @include clearMP(); display:block; width:100%; text-transform: uppercase; border-bottom:1px solid white;
             @include respond(small-phones) {padding:0px;}
             a {font-family:$sansFont; cursor:pointer;  color:$white; width:100%;
@@ -80,7 +83,7 @@
 
 
     @include respond(portrait-tablets) {
-         position:fixed !important; 
+         position:absolute !important; 
          top:0; 
          left:0;
          
@@ -89,7 +92,7 @@
         @include backface-visibility(hidden);
         @include transformTransition(500ms);
 
-        ul {  height:100vh; @include clearfix;
+        ul {  height:100%; @include clearfix;
             li {display:block;  min-height:3em;
                 &.hide-phone {display:none;}
             }
@@ -98,17 +101,20 @@
 
     
     @include respond(portrait-tablets) {width:30% !important;}
-    @include respond(large-phones) {  width:40% !important;}
+    @include respond(large-phones) {  width:50% !important;}
     @include respond(small-phones) {  width:60% !important;}
 }
+
+
 
 
 .nav-open {
     .inner-wrap {
         @include respond(portrait-tablets) { @include translate3d(30%,0,0);}
-        @include respond(small-phones) {  @include translate3d(60%,0,0);}
-        @include respond(large-phones) {  @include translate3d(40%,0,0);}
+        @include respond(large-phones) { @include translate3d(50%,0,0);} 
+        @include respond(small-phones) {  @include translate3d(60%,0,0);}        
     }
+
 
     .main-navigation {position:fixed;}
 }

@@ -15,6 +15,11 @@ class EloquentActivityRepository implements ActivityRepositoryInterface {
         return Activity::all();
       }
 
+      public function findSponsors($id) {
+            return Response::json(Activity::with('sponsor')->find($id)->toArray());
+      }
+
+
       public function paginate($limit = null)
       {
 

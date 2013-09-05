@@ -23,11 +23,11 @@ Route::group(array('prefix'=>'api'), function () {
 	Route::resource('days',  'aiga\DaysController');
 	Route::resource('activity',  'aiga\ActivityController');
 	Route::resource('talks',  'aiga\SpeakersController');
-	Route::resource('sponsors',  'aiga\SponsorsController');
 	Route::resource('venues',  'aiga\VenuesController');
 
 	//Specific Routes
 	Route::get('/getnav', 'aiga\DaysController@getDays');
+	Route::get('/sponsors/{id}', 'aiga\ActivityController@getSponsors');
 
 });
 

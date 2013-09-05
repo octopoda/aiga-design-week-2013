@@ -1,6 +1,7 @@
 // Welcome to Gumby 2.0 Settings.
 // Happy Tinkering!
 @import "compass/css3/images";
+@import "compass/utilities/general/hacks";
 
 //Colors
 $red: #ed1c24;
@@ -38,7 +39,7 @@ $hybrid: 16 !default;							// 16 Column Default Hybrid Grid
 // Responsiveness Settings
 $min-device-width: 320px; 						// iPhone Portrait
 $tablet-device-width: 768px;					// iPad Portrait
-$smaller-phone-width: 510px;
+$smaller-phone-width: 330px;
 $document-width: $row-max-width;				// Default Document
 $max-device-width: 2880px;						// Max Document Size
 

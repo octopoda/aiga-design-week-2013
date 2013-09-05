@@ -38,7 +38,7 @@ class TalkTableSeeder extends Seeder {
         		'position'=> 1
         	),
         	array( //6
-        		'title'=>'Graduate Thesis',
+        		'title'=>'A Curriculum For Intervention',
         		'activity_id' => 9,
         		'position'=> 2
         	),
@@ -120,11 +120,33 @@ class TalkTableSeeder extends Seeder {
 
 
         	//Fellow Awards
-        	array(
+        	array( //19
         		'title'=>'Fellow Award',
         		'activity_id' => 21,
         		'position'=> 1
-        	)
+        	),
+            array( //20
+                'title'=>'Fellow Award Celebration',
+                'activity_id' => 21,
+                'position'=> 1
+            ),
+
+            //Late Comers 
+
+            //Wednesdaty Night 
+            array( //21
+                'title'=>'',
+                'activity_id' => 13,
+                'position'=> 4
+            ),
+
+            //Thursday Night
+            array( //22
+                'title'=>'',
+                'activity_id' => 17,
+                'position'=> 3
+            )            
+
         );
 
         // Uncomment the below to run the seeder

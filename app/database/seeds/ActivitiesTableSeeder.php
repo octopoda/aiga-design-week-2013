@@ -19,9 +19,11 @@ class ActivitiesTableSeeder extends Seeder {
 				'name'=>'Hackathon',
 				'venue_id'=> 2,
 				'start_time'=> '9:00',
-				'end_time'=> '18:00',
+				'end_time'=> '18:30',
 				'day_id'=>1,
-				'description'=>'',
+				'description'=>'<p>7 teams. 3 challenges. 1 day. Try your hand at designing an app from start to finish. Find your new side-project. Learn/test your collaboration skills. This year, we kick-off Design:Big Week with a hands-on design project at Common Desk in Deep Ellum, in collaboration with Open Dallas, and with support from Dallas Engaged Professionals.</p>
+
+					<p>AIGA DFW’s BIG:HACKATHON shakes up the standard hackathon format with its structure, judging criteria and judging process. The hackathon on September 21 will mix designers and app developers together, to collaborate and use the strengths of each discipline to &ldquo;wow&rdquo; our judges and attendees. Each team will be curated and asked to produce a creative brief, a &ldquo;working&rdquo; app and a winning presentation.</p>',
 				'image'=>'/images/events/hackathon.png',
 				'register_link'=>null,
 				'page_type'=> 1
@@ -29,10 +31,10 @@ class ActivitiesTableSeeder extends Seeder {
 			array( //2
 				'name'=>'Kickoff Party',
 				'venue_id'=> 2,
-				'start_time'=> '19:00',
-				'end_time'=> '21:30',
+				'start_time'=> '18:30',
+				'end_time'=> '22:00',
 				'day_id'=>1,
-				'description'=>'',
+				'description'=>'<p>It’s a party in our new digs. Mix and mingle with new and old friends at Common Desk in Deep Ellum. Stay tuned for more details.</p>',
 				'image'=>'/images/events/kickoff.png',
 				'register_link'=>'http://aigadfwdwbigkickoff13-eorg.eventbrite.com/',
 				'page_type' => 1
@@ -41,7 +43,7 @@ class ActivitiesTableSeeder extends Seeder {
 
 			//Monday
 			array( //3
-				'name'=>'Wylie Theater Tour',
+				'name'=>'WYLY Theater Tour',
 				'venue_id'=> 3,
 				'start_time'=> '10:45',
 				'end_time'=> '12:00',
@@ -96,8 +98,10 @@ class ActivitiesTableSeeder extends Seeder {
 				'start_time'=> '12:00',
 				'end_time'=> '13:30',
 				'day_id'=>3,
-				'description'=>'',
-				'image'=>'/images/events/lunch-lab.png',
+				'description'=>'<p>Professional designers and developers like us are paid to create smart, badass work for our clients. All too often, however, our hard and thoughtful work fails to gain client approval simply because we didn’t present it effectively. In short, in these hyper-competitive times, sometimes the better design work loses out to the better sell. The same meticulous thinking that informs our strategies and our executions needs to affect how we present our work, as well as our explanations regarding WHY our work has been designed as it has. If you’re a designer or developer who’s slightly introverted by nature and prone to stage fright, or if you simply want to brush up on your presentation skills, join us for this fun, informative presentation. You’ll learn more about how to give your work the spotlight it deserves as you present it to clients and potential clients, and come away with an array of storytelling strategies and acting techniques that will help you improve your presentation performance.</p>
+
+<p>Michael and Megan gave this presentation at this year’s SXSW Interactive Conference in Austin TWICE. The second was an encore of the first, and being asked to encore at SXSW Interactive is very rare. Almost 1,000 people attended these presentations at SXSW 2013, but you can hear and participate in &ldquo;How Not 2 Suck…&rdquo; in Dallas at this year’s Design:Big Week.</p>',
+				'image'=>'/images/events/how-not-to-suck.png',
 				'register_link'=>'http://aigadfwdesignbig-grow-eorg.eventbrite.com/',
 				'page_type'=>1
 
@@ -108,8 +112,10 @@ class ActivitiesTableSeeder extends Seeder {
 				'start_time'=> '14:30',
 				'end_time'=> '17:30',
 				'day_id'=>3,
-				'description'=>'Creative Cloud Workshop',
-				'image'=>'/images/events/adobe-workshops.png',
+				'description'=>'Creative Cloud for Designers: Create and deliver compelling designs to more audiences in more places than ever before. With Adobe Creative Cloud, one simple membership gives you access to the complete set of Adobe design tools, as well as every other Adobe creative desktop application, and more. You get new features and upgrades as soon as they are available. Cloud storage and file syncing capabilities allow you to access your files from virtually anywhere. And Internet-based services let you build and publish websites, portfolios, mobile apps, iPad apps, and content for any medium or device. Your entire creative world gets its own central workspace to keep your ideas, files, fonts, settings, notifications, desktop applications, and team members in sync.</p>
+
+					<p>At this workshop, you&rdquo;ll learn how to streamline your workflow with Creative Cloud, new tools and advances to bring your design to life in Photoshop, Illustrator, InDesign, Muse and DPSSE. Instructor: April Clark, owner of Nuance Consulting LLC.</p>',
+				'image'=>'/images/events/cloud-workshops.png',
 				'register_link'=>'http://aigadfwdesignbig-grow-eorg.eventbrite.com/',
 				'page_type'=>1
 
@@ -150,21 +156,21 @@ class ActivitiesTableSeeder extends Seeder {
 				'name'=>'Adobe Muse Workshop',
 				'venue_id'=> 1,
 				'start_time'=> '9:00',
-				'end_time'=> '11:45',
+				'end_time'=> '11:35',
 				'day_id'=>4,
-				'description'=>'Workshop on Adobe Muse',
-				'image'=>'/images/events/adobe-workshops.png',
+				'description'=>'<p>Learn how to build a website without coding! Adobe&reg; Muse$trade; software, available as part of Adobe Creative Cloud or single app membership, enables graphic designers to create HTML websites for desktop and mobile devices, without writing code. Design unique sites the way you design print layouts. Use familiar features and shortcuts from products like InDesign, access hundreds of web fonts, and add interactivity with built&ndash;in tools. Then, take your site live by publishing with the Adobe Business Catalyst® service or with any hosting provider of your choice. In just one day, you’ll learn how to use this deep set of design and layout features to deliver professional, highly designed websites that meet the latest web standards. Instructor: April Clark, owner of Nuance Consulting LLC.</p>',
+				'image'=>'/images/events/muse-workshops.png',
 				'register_link'=>'http://aigadfwdesignbig-impact-eorg.eventbrite.com/',
 				'page_type'=>1
 
 			),
 			array( //11
-				'name'=>'Lunch Lab',
+				'name'=>'Lunch Lab Volume 3: Design Dallas\' Future',
 				'venue_id'=> 1,
 				'start_time'=> '12:00',
 				'end_time'=> '13:30',
 				'day_id'=>4,
-				'description'=>'',
+				'description'=>'<p>Lunch Lab is about gathering creative thinkers to solve urban issues one hour at a time. The people of Dallas have an opportunity to shape the city’s destiny by claiming its most important asset - streets. Join us in a charrette to begin the development of a clear vision for a Dallas with urban bikeways and trails that connect our downtown districts, off-street trail networks as well as existing or planned cycling infrastructure. You can do a lot with your lunch hour.</p>',
 				'image'=>'/images/events/lunch-lab.png',
 				'register_link'=>'http://aigadfwdesignbig-impact-eorg.eventbrite.com/',
 				'page_type'=>1
@@ -202,10 +208,10 @@ class ActivitiesTableSeeder extends Seeder {
 				'name'=>'Adobe Digital Publishing Services Workshop',
 				'venue_id'=> 1,
 				'start_time'=> '9:00',
-				'end_time'=> '11:45',
+				'end_time'=> '11:30',
 				'day_id'=>5,
-				'description'=>'Adobe Workshop on Digtial Publishing Suite',
-				'image'=>'/images/events/adobe-workshops.png',
+				'description'=>'<p>In this workshop, you will learn everything you need to know to design and prepare an iPad app for submission to the Apple App Store without writing code. Adobe Digital Publishing Suite, Single Edition, provides designers with an intuitive way to create engaging, interactive iPad apps without writing code. Design your iPad app layout in InDesign, then move to Digital Publishing Suite, Single Edition to package for the App Store. Plus, Creative Cloud members can now create an unlimited number of iPad apps for submission to the Apple App Store. Instructor: April Clark, owner of Nuance Consulting LLC.</p>',
+				'image'=>'/images/events/dps-workshops.png',
 				'register_link'=>'http://aigadfwdesignbig-interact-eorg.eventbrite.com/',
 				'page_type'=> 1
 			),
@@ -215,8 +221,11 @@ class ActivitiesTableSeeder extends Seeder {
 				'start_time'=> '12:00',
 				'end_time'=> '1:30',
 				'day_id'=>5,
-				'description'=>'',
-				'image'=>'/images/events/lunch-lab.png',
+				'description'=>'<p>As designers we strive for pixel perfection in our interactive documents. We nudge this element two pixels and make sure the gradient and drop shadow is perfect on that element. But sadly those days are over.  With CSS3 and responsive website we cannot build pixel perfect static images and expect developers to convert our designs to the thousands of screen sizes and multiple browsers. </p> 
+<p>As the communication between designer and developer is growing we are constantly putting up walls like “Designers shouldn’t have to code” or “I can’t develop that, it‘s impossible.” It‘s time to tear down those walls and start learning how to communicate with each other. This will not only make our designs better, but will make us better designers. Join us for a presentation of why designers should code and how to start. We’ll look at HTML, CSS, Javascript and even some back-end coding. We’ll help you, the creative professional, learn how to understand all the code on the screen.</p>
+<p>If you don’t want to become obsolete, then your designer skill set must go beyond Photoshop, InDesign, and Illustrator. We need to learn to convert our designs into functional interactive elements. We need to quit whining shut up and learn to code.</p>
+<p><strong>Presenter: </strong>Zack Davis is the principal of Octopoda Interactive and a hybrid designer.  Some days he works in Illustrator and Photoshop creating identity marks, website mockups,  and illustrations, whereas the next day he will be in his favorite IDE working with PHP, CSS, HTML, and Javascript. Zack specializes in working with local small businesses to get their companies off the ground and to increase their efficiency.</p>',
+				'image'=>'/images/events/shut-up.png',
 				'register_link'=>'http://aigadfwdesignbig-interact-eorg.eventbrite.com/',
 				'page_type'=> 1
 			),
@@ -255,8 +264,19 @@ class ActivitiesTableSeeder extends Seeder {
 				'start_time'=> '12:00',
 				'end_time'=> '13:30',
 				'day_id'=>6,
-				'description'=>'',
-				'image'=>'/images/events/lunch-lab.png',
+				'description'=>'<p>There’s an amazing overlap between the qualities of a great entrepreneur and a great designer: both are obsessively driven to create; both identify and solve problems; both have a unique ability to think abstractly while translating abstract ideas into specific and relatable forms; both are collaborative and community-oriented; and the efforts of both are fueled by innate passion.  </p>
+
+					<p>AIGA DFW wants to encourage members to consider their entrepreneurial potential by exposing them to the business-building process. During this panel, we will demonstrate to the business community how design thinking serves as a catalyst to economic growth. For members, it is a glimpse into a larger world of possibility. Rather than being restricted to a service provider role, the creative mind-set becomes a full equity partner in the art & commerce relationship.</p>
+
+					<p>We will be joined by the following panelists: </p>
+					<ul>
+					<li>Herbert Austin / District Director for the U. S. Small Business Administration (SBA), DFW  </li>
+					<li>Kate Canales / Director of Design Innovation at SMU’s School of Engineering </li>
+					<li>Nick Clark / Founder of Common Desk and ROAM </li>
+					<li>Jim Hart / Director of Arts Entrepreneurship at SMU.</li>
+					</ul>
+					',
+				'image'=>'/images/events/design-ent@2x.png',
 				'register_link'=>'http://aigadfwdesignbig-forward-eorg.eventbrite.com/',
 				'page_type'=>1
 			),
@@ -288,12 +308,14 @@ class ActivitiesTableSeeder extends Seeder {
 
 			//Saturday
 			array( //21
-				'name'=>'Fellow Award Dinner',
+				'name'=>'Fellow Award Celebration',
 				'venue_id'=> 3,
 				'start_time'=> '19:00',
 				'end_time'=> '21:30',
 				'day_id'=>7,
-				'description'=>'',
+				'description'=>'<p>AIGA DFW officially closes this year’s Design:Big Week at the Charles and Dee Wyly Theater with our Fellow Award Celebration honoring our 2013 winners Willie Baronet and Jimmy Squires. </p>
+
+<p>The AIGA Fellow Award is the highest honor an AIGA chapter may bestow upon one of its members. With it, we honor senior-level members who have made a significant contribution to raising the standards of excellence in practice and conduct within our design community. The areas of education, writing, leadership, and reputation, as well as the practice of design, have equal consideration in measuring significant contribution.  </p>',
 				'image'=>'/images/events/fellows-award.png',
 				'register_link'=>'http://aigadfwdesignbig-heart-eorg.eventbrite.com/',
 				'page_type'=>5
@@ -308,7 +330,7 @@ class ActivitiesTableSeeder extends Seeder {
 				'end_time'=> null,
 				'day_id'=>1,
 				'description'=>'A Special Thanks to our Sponsors',
-				'image'=>null,
+				'image'=>'/images/events/sponsors@2x.png',
 				'register_link'=>null,
 				'page_type'=>4
 			),
@@ -319,7 +341,7 @@ class ActivitiesTableSeeder extends Seeder {
 				'end_time'=> null,
 				'day_id'=>2,
 				'description'=>'A Special Thanks to our Sponsors',
-				'image'=>null,
+				'image'=>'/images/events/sponsors@2x.png',
 				'register_link'=>null,
 				'page_type'=>4
 			),
@@ -330,7 +352,7 @@ class ActivitiesTableSeeder extends Seeder {
 				'end_time'=> null,
 				'day_id'=>3,
 				'description'=>'A Special Thanks to our Sponsors',
-				'image'=>null,
+				'image'=>'/images/events/sponsors@2x.png',
 				'register_link'=>null,
 				'page_type'=>4
 			),
@@ -341,7 +363,7 @@ class ActivitiesTableSeeder extends Seeder {
 				'end_time'=> null,
 				'day_id'=>4,
 				'description'=>'A Special Thanks to our Sponsors',
-				'image'=>null,
+				'image'=>'/images/events/sponsors@2x.png',
 				'register_link'=>null,
 				'page_type'=>4
 			),
@@ -352,21 +374,11 @@ class ActivitiesTableSeeder extends Seeder {
 				'end_time'=> null,
 				'day_id'=>5,
 				'description'=>'A Special Thanks to our Sponsors',
-				'image'=>null,
+				'image'=>'/images/events/sponsors@2x.png',
 				'register_link'=>null,
 				'page_type'=>4
 			),
-			array( //27
-				'name'=>'Sponsors',
-				'venue_id'=> null,
-				'start_time'=> null,
-				'end_time'=> null,
-				'day_id'=>6,
-				'description'=>'A Special Thanks to our Sponsors',
-				'image'=>null,
-				'register_link'=>null,
-				'page_type'=>4
-			)
+			
 		);
 
 		
