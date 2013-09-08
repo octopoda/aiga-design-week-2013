@@ -55,9 +55,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'aigaapp',
-			'username'  => 'root',
-			'password'  => 'V8Juice',
+			'database'  => 'aiga-app-db',
+			'username'  => 'sau',
+			'password'  => '87tTVDlW',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
