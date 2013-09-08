@@ -1,4 +1,5 @@
 web1:
+  name: aiga-app
   document_root: public
   php_version: 5.4.14
   php_extensions:
@@ -24,5 +25,10 @@ web1:
     - "rm -f app/storage/views/*"
   before_deploy:
     - "php artisan migrate --seed"
+db1:
+  name: aiga
+  type: mysql
+
 cache1:
+  name:sessions
   type: redis
