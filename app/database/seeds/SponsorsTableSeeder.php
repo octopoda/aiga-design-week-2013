@@ -22,7 +22,7 @@ class SponsorsTableSeeder extends Seeder {
 			),
 			array( //3
 				'name'=>'KIND Healthy Snacks',
-				'link'=>'',
+				'link'=>'http://www.kindsnacks.com/',
 				'image'=> '/images/sponsors/kind.png',
 				'description'=> '',
 			),
