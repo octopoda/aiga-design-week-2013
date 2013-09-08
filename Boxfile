@@ -8,11 +8,13 @@ web1:
   php_display_errors: "1"
   php_date_timezone: "US/central"
   php_extensions:
+    - curl
     - mcrypt
     - pdo_mysql
     - redis
     - zip
     - xcache
+
   php_session_save_handler: redis
   php_session_save_path: "tcp://tunnel.pagodabox.com:6379"
   shared_writable_dirs:
