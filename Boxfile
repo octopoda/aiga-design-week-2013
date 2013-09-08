@@ -14,7 +14,7 @@ web1:
     - redis
     - zip
     - xcache
-    - bcmath
+    - bcmathx
 
   php_session_save_handler: redis
   php_session_save_path: "tcp://tunnel.pagodabox.com:6379"
@@ -27,7 +27,8 @@ web1:
   after_build:
     - "if [ ! -f composer.phar ]; then curl -s http://getcomposer.org/installer | php; fi; php composer.phar install --prefer-source"
   before_deploy:
-    - "php artisan migrate --seed"
+    - "php artisan migrate"
+    - "php artisan db:seed"
   after_deploy:
     - "rm -f app/storage/cache/*"
     - "php artisan cache:clear"
