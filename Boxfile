@@ -2,6 +2,30 @@ global:
   APP_Name: aiga-app
   ENV: production 
 web1:
+  name: aiga-app-web
+  document_root: public
+  php_version: 5.4.14
+  php_display_errors: "1"
+  php_date_timezone: "US/central"
+  php_extensions:
+    - curl
+    - mcrypt
+    - pdo_mysql
+    - redis
+    - zip
+    - xcache
+    - bcmath
+    - mbstring
+  php_session_save_handler: redis
+  php_session_save_path: "tcp://tunnel.pagodabox.com:6379"
+  shared_writable_dirs:
+    - app/storage/cache
+    - app/storage/logs
+    - app/storage/meta
+    - app/storage/sessions
+    - app/storage/views
+  after_build:
+    - "if [ ! -f composer.phar ]; then curl -s http://getcomposer.org/installer | php; fi; php composer.phar install --prefer-source"
   before_deploy:
     - "php artisan migrate"
     - "php artisan db:seed"
@@ -10,3 +34,10 @@ web1:
     - "php artisan cache:clear"
     - "rm -f app/storage/views/*"
   
+db1:
+  name: aiga-app-db
+  type: mysql
+
+cache1:
+  name: aiga-app-cache
+  type: redis
