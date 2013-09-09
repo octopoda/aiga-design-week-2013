@@ -16,19 +16,6 @@ class ActivitiesTableSeeder extends Seeder {
 		$activities = array(
 			//Saturday
 			array( //1
-				'name'=>'Hackathon',
-				'venue_id'=> 2,
-				'start_time'=> '9:00',
-				'end_time'=> '18:30',
-				'day_id'=>1,
-				'description'=>'<p>7 teams. 3 challenges. 1 day. Try your hand at designing an app from start to finish. Find your new side-project. Learn/test your collaboration skills. This year, we kick-off Design:Big Week with a hands-on design project at Common Desk in Deep Ellum, in collaboration with Open Dallas, and with support from Dallas Engaged Professionals.</p>
-
-					<p>AIGA DFW’s BIG:HACKATHON shakes up the standard hackathon format with its structure, judging criteria and judging process. The hackathon on September 21 will mix designers and app developers together, to collaborate and use the strengths of each discipline to &ldquo;wow&rdquo; our judges and attendees. Each team will be curated and asked to produce a creative brief, a &ldquo;working&rdquo; app and a winning presentation.</p>',
-				'image'=>'/images/events/hackathon.png',
-				'register_link'=>null,
-				'page_type'=> 1
-			),
-			array( //2
 				'name'=>'Kickoff Party',
 				'venue_id'=> 2,
 				'start_time'=> '18:30',
@@ -42,7 +29,7 @@ class ActivitiesTableSeeder extends Seeder {
 
 
 			//Monday
-			array( //3
+			array( //2
 				'name'=>'WYLY Theater Tour',
 				'venue_id'=> 3,
 				'start_time'=> '10:45',
@@ -62,7 +49,7 @@ class ActivitiesTableSeeder extends Seeder {
 				'page-type'=> 1
 
 			),
-			array( //4
+			array( //3
 				'name'=>'Studio Tours',
 				'start_time'=> '15:00',
 				'end_time'=> '16:30',
@@ -77,7 +64,7 @@ class ActivitiesTableSeeder extends Seeder {
 			),
 
 			
-			array( //5
+			array( //4
 				'name'=>'DB:Talks / DESIGN:DFW',
 				'venue_id'=> 1,
 				'start_time'=> '19:15',
@@ -92,7 +79,7 @@ class ActivitiesTableSeeder extends Seeder {
 			
 
 		//TUESDAY 	
-			array( //6
+			array( //5
 				'name'=>'How Not to Suck at Giving Presentations',
 				'venue_id'=> 1,
 				'start_time'=> '12:00',
@@ -106,7 +93,7 @@ class ActivitiesTableSeeder extends Seeder {
 				'page_type'=>1
 
 			),
-			array( //7
+			array( //6
 				'name'=>'Adobe Cloud Workshop',
 				'venue_id'=> 1,
 				'start_time'=> '14:30',
@@ -120,7 +107,7 @@ class ActivitiesTableSeeder extends Seeder {
 				'page_type'=>1
 
 			),
-			array( //8
+			array( //7
 				'name'=>'Studio Tours',
 				'venue_id'=> null,
 				'start_time'=> '15:00',
@@ -135,7 +122,7 @@ class ActivitiesTableSeeder extends Seeder {
 			),
 			
 			
-			array( //9 
+			array( //8 
 				'name'=>'DB:Talks / DESIGN:GROW',
 				'venue_id'=> 1,
 				'start_time'=> '19:15',
@@ -152,7 +139,7 @@ class ActivitiesTableSeeder extends Seeder {
 
 
 			//Wednesday
-			array( //10
+			array( //9
 				'name'=>'Adobe Muse Workshop',
 				'venue_id'=> 1,
 				'start_time'=> '9:00',
@@ -164,7 +151,7 @@ class ActivitiesTableSeeder extends Seeder {
 				'page_type'=>1
 
 			),
-			array( //11
+			array( //10
 				'name'=>'Lunch Lab Volume 3: Design Dallas\' Future',
 				'venue_id'=> 1,
 				'start_time'=> '12:00',
@@ -175,7 +162,7 @@ class ActivitiesTableSeeder extends Seeder {
 				'register_link'=>'http://aigadfwdesignbig-impact-eorg.eventbrite.com/',
 				'page_type'=>1
 			),
-			array( //12
+			array( //11
 				'name'=>'Studio Tours',
 				'venue_id'=> '2',
 				'start_time'=> '15:30',
@@ -188,7 +175,7 @@ class ActivitiesTableSeeder extends Seeder {
 				'register_link'=>'http://aigadfwdesignbig-impact-eorg.eventbrite.com/',
 				'page_type'=> 2
 			),
-			array( //13
+			array( //12
 				'name'=>'DB:Talks DESIGN:IMPACT',
 				'venue_id'=> 1,
 				'start_time'=> '19:15',
@@ -204,7 +191,7 @@ class ActivitiesTableSeeder extends Seeder {
 
 
 			//Thursday
-			array( //14
+			array( //13
 				'name'=>'Adobe Digital Publishing Services Workshop',
 				'venue_id'=> 1,
 				'start_time'=> '9:00',
@@ -215,7 +202,7 @@ class ActivitiesTableSeeder extends Seeder {
 				'register_link'=>'http://aigadfwdesignbig-interact-eorg.eventbrite.com/',
 				'page_type'=> 1
 			),
-			array( //15
+			array( //14
 				'name'=>'Shut up and Learn to Code',
 				'venue_id'=> 1,
 				'start_time'=> '12:00',
@@ -229,7 +216,7 @@ class ActivitiesTableSeeder extends Seeder {
 				'register_link'=>'http://aigadfwdesignbig-interact-eorg.eventbrite.com/',
 				'page_type'=> 1
 			),
-			array( //16
+			array( //15
 				'name'=>'Studio Tours',
 				'venue_id'=> null,
 				'start_time'=> '15:30',
@@ -243,7 +230,7 @@ class ActivitiesTableSeeder extends Seeder {
 				'page_type'=> 2
 			),
 			
-			array( //17
+			array( //16
 				'name'=>'DB:Talks DESIGN:INTERACT',
 				'venue_id'=> 1,
 				'start_time'=> '19:15',
@@ -258,7 +245,7 @@ class ActivitiesTableSeeder extends Seeder {
 			
 
 			//Friday
-			array( //18
+			array( //17
 				'name'=>'Design + Entreprenuership',
 				'venue_id'=> 1,
 				'start_time'=> '12:00',
@@ -280,7 +267,7 @@ class ActivitiesTableSeeder extends Seeder {
 				'register_link'=>'http://aigadfwdesignbig-forward-eorg.eventbrite.com/',
 				'page_type'=>1
 			),
-			array( //19
+			array( //18
 				'name'=>'Studio Tours',
 				'venue_id'=> '2',
 				'start_time'=> '15:00',
@@ -293,7 +280,7 @@ class ActivitiesTableSeeder extends Seeder {
 				'register_link'=>'http://aigadfwdesignbig-forward-eorg.eventbrite.com/',
 				'page_type'=>2
 			),
-			array( //20
+			array( //19
 				'name'=>'DB:Talks DESIGN:FORWARD',
 				'venue_id'=> 1,
 				'start_time'=> '19:15',
@@ -307,7 +294,7 @@ class ActivitiesTableSeeder extends Seeder {
 			
 
 			//Saturday
-			array( //21
+			array( //20
 				'name'=>'Fellow Award Celebration',
 				'venue_id'=> 3,
 				'start_time'=> '19:00',
@@ -323,7 +310,8 @@ class ActivitiesTableSeeder extends Seeder {
 
 
 			//Sponsors
-			array( //22
+			//Saturday
+			array( //21
 				'name'=>'Sponsors',
 				'venue_id'=> null,
 				'start_time'=> null,
@@ -334,7 +322,8 @@ class ActivitiesTableSeeder extends Seeder {
 				'register_link'=>null,
 				'page_type'=>4
 			),
-			array( //23
+			//Monday
+			array( //22
 				'name'=>'Sponsors',
 				'venue_id'=> null,
 				'start_time'=> null,
@@ -345,7 +334,8 @@ class ActivitiesTableSeeder extends Seeder {
 				'register_link'=>null,
 				'page_type'=>4
 			),
-			array( //24
+			//Tuesday
+			array( //23
 				'name'=>'Sponsors',
 				'venue_id'=> null,
 				'start_time'=> null,
@@ -356,7 +346,8 @@ class ActivitiesTableSeeder extends Seeder {
 				'register_link'=>null,
 				'page_type'=>4
 			),
-			array( //25
+			//Wednesday
+			array( //24
 				'name'=>'Sponsors',
 				'venue_id'=> null,
 				'start_time'=> null,
@@ -367,12 +358,25 @@ class ActivitiesTableSeeder extends Seeder {
 				'register_link'=>null,
 				'page_type'=>4
 			),
-			array( //26
+			//Thursday
+			array( //25
 				'name'=>'Sponsors',
 				'venue_id'=> null,
 				'start_time'=> null,
 				'end_time'=> null,
 				'day_id'=>5,
+				'description'=>'A Special Thanks to our Sponsors',
+				'image'=>'/images/events/sponsors@2x.png',
+				'register_link'=>null,
+				'page_type'=>4
+			),
+			//Friday
+			array( //26
+				'name'=>'Sponsors',
+				'venue_id'=> null,
+				'start_time'=> null,
+				'end_time'=> null,
+				'day_id'=>6,
 				'description'=>'A Special Thanks to our Sponsors',
 				'image'=>'/images/events/sponsors@2x.png',
 				'register_link'=>null,

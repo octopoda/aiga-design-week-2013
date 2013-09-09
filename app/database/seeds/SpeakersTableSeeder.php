@@ -112,12 +112,13 @@ class SpeakersTableSeeder extends Seeder {
 				'talk_id'=>'11'
 			),	
 			array(
-				'name'=>'Christian Yazdanpanah',
-				'title'=>'Director of Positive Impact / MEplusYou Agency',
-				'link'=>'http://aigadfwdw.org/post/60162403798/christian-yazdanpanah-director-of-positive-impact',
-				'image'=>'/images/speakers/christian-yazdanpanah.png',
-				'talk_id'=>'11'
-			),			
+				'name'=>'Casey Caplowe',
+				'title'=>'Co-founder + Creative Director / GOOD',
+				'link'=>'http://aigadfwdw.org/post/60538207110/casey-caplowe-co-founder-creative-director',
+				'image'=>'/images/speakers/casey-caplowe.png',
+				'talk_id'=>'21'
+			),	
+					
 
 			//Thursday
 			array(
@@ -170,7 +171,13 @@ Director / CVAD Design Research Center ',
 				'image'=>'/images/speakers/brandon-copley.png',
 				'talk_id'=>'16'
 			),
-
+			array(
+				'name'=>'Christian Yazdanpanah',
+				'title'=>'Director of Positive Impact / MEplusYou Agency',
+				'link'=>'http://aigadfwdw.org/post/60162403798/christian-yazdanpanah-director-of-positive-impact',
+				'image'=>'/images/speakers/christian-yazdanpanah.png',
+				'talk_id'=>'23'
+			),	
 
 
 	//Lunches

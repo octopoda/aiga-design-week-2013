@@ -50,6 +50,12 @@ class SponsorsTableSeeder extends Seeder {
 				'image'=> '/images/sponsors/brother-ubs.png',
 				'description'=> '',
 			),
+			array( //8
+				'name'=>'OLMSTED-KIRK',
+				'link'=>'http://okpaper.com/',
+				'image'=> '/images/sponsors/ok-paper.jpg',
+				'description'=> '',
+			)
 		);
 
 

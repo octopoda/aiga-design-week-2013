@@ -8,25 +8,25 @@ class TalkTableSeeder extends Seeder {
         	//Mondy Night DESIGN:DFW
         	array( //1
         		'title'=>'Behind the BIG Campaign',
-        		'activity_id' => 5,
+        		'activity_id' => 4,
         		'position'=> 1
         	),
 
 			array( //2
         		'title'=>'Branding Klyde Warren',
-        		'activity_id' => 5,
+        		'activity_id' => 4,
         		'position'=> 2
         	),        	
 
 			array( //3
         		'title'=>'Designing Disruption',
-        		'activity_id' => 5,
+        		'activity_id' => 4,
         		'position'=> 3
         	),
 
 			array( //4
         		'title'=>'Neighborhood Markets',
-        		'activity_id' => 5,
+        		'activity_id' => 4,
         		'position'=> 4
         	),
 
@@ -34,40 +34,40 @@ class TalkTableSeeder extends Seeder {
         	//Tuesday DESIGN:GROW
         	array( //5
         		'title'=>'Designing Problem Solving',
-        		'activity_id' => 9,
+        		'activity_id' => 8,
         		'position'=> 1
         	),
         	array( //6
         		'title'=>'A Curriculum For Intervention',
-        		'activity_id' => 9,
+        		'activity_id' => 8,
         		'position'=> 2
         	),
         	array( //7
         		'title'=>'DISD',
-        		'activity_id' => 9,
+        		'activity_id' => 8,
         		'position'=> 3
         	),
         	array( //8
         		'title'=>'Growth After Agency',
-        		'activity_id' => 9,
+        		'activity_id' => 8,
         		'position'=> 4
         	),
 
 
         	//Wednesday DESIGN:IMPACT
         	array( //9
-        		'title'=>'',
-        		'activity_id' => 13,
+        		'title'=>'Neighborbood Stories',
+        		'activity_id' => 12,
         		'position'=> 1
         	),
         	array( //10
-        		'title'=>'',
-        		'activity_id' => 13,
+        		'title'=>'The Art of Letterpress',
+        		'activity_id' => 12,
         		'position'=> 2
         	),
         	array( //11
-        		'title'=>'',
-        		'activity_id' => 13,
+        		'title'=>'Driving Momentum',
+        		'activity_id' => 12,
         		'position'=> 3
         	),
 
@@ -75,29 +75,30 @@ class TalkTableSeeder extends Seeder {
 			//Thursday DESIGN:INTERACT
         	array( //12
         		'title'=>'',
-        		'activity_id' => 17,
+        		'activity_id' => 16,
         		'position'=> 1
         	),
         	array( //13
         		'title'=>'',
-        		'activity_id' => 17,
-        		'position'=> 2
+        		'activity_id' => 16,
+        		'position'=> 3
         	),
- 			
+           
+            
 			//Friday DESIGN:FORWARD
         	array( //14
         		'title'=>'',
-        		'activity_id' => 20,
+        		'activity_id' => 19,
         		'position'=> 1
         	),
         	array( //15
         		'title'=>'',
-        		'activity_id' => 20,
+        		'activity_id' => 19,
         		'position'=> 2
         	),
         	array( //16
         		'title'=>'',
-        		'activity_id' => 20,
+        		'activity_id' => 19,
         		'position'=> 3
         	),
 
@@ -122,12 +123,12 @@ class TalkTableSeeder extends Seeder {
         	//Fellow Awards
         	array( //19
         		'title'=>'Fellow Award',
-        		'activity_id' => 21,
+        		'activity_id' => 20,
         		'position'=> 1
         	),
             array( //20
                 'title'=>'Fellow Award Celebration',
-                'activity_id' => 21,
+                'activity_id' => 20,
                 'position'=> 1
             ),
 
@@ -135,17 +136,24 @@ class TalkTableSeeder extends Seeder {
 
             //Wednesdaty Night 
             array( //21
-                'title'=>'',
-                'activity_id' => 13,
+                'title'=>'Designing For/With GOOD',
+                'activity_id' => 12,
                 'position'=> 4
             ),
 
             //Thursday Night
             array( //22
                 'title'=>'',
-                'activity_id' => 17,
-                'position'=> 3
-            )            
+                'activity_id' => 16,
+                'position'=> 2
+            ), 
+
+            //Friday Night
+            array( //23
+                'title'=>'',
+                'activity_id' => 19,
+                'position'=> 4
+            )              
 
         );
 
