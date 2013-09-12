@@ -7,166 +7,166 @@ class Activity_sponsorsTableSeeder extends Seeder {
         $activity_sponsors = array(
         	//Saturday
         	array(
-        		'activity_id'=>'21',
+        		'activity_id'=>'22',
         		'sponsor_id'=>'1',
         	),
         	array(
-        		'activity_id'=>'21',
+        		'activity_id'=>'22',
         		'sponsor_id'=>'2',
         	),
         	array(
-        		'activity_id'=>'21',
+        		'activity_id'=>'22',
         		'sponsor_id'=>'3',
         	),
         	array(
-        		'activity_id'=>'21',
+        		'activity_id'=>'22',
         		'sponsor_id'=>'4',
         	),
         	array(
-        		'activity_id'=>'21',
+        		'activity_id'=>'22',
         		'sponsor_id'=>'5',
         	),
         	array(
-        		'activity_id'=>'21',
+        		'activity_id'=>'22',
         		'sponsor_id'=>'6',
         	),
         	array(
-        		'activity_id'=>'21',
+        		'activity_id'=>'22',
         		'sponsor_id'=>'7',
         	),
 
         	//Monday
         	array(
-        		'activity_id'=>'22',
+        		'activity_id'=>'23',
         		'sponsor_id'=>'1',
         	),
         	array(
-        		'activity_id'=>'22',
+        		'activity_id'=>'23',
         		'sponsor_id'=>'2',
         	),
         	array(
-        		'activity_id'=>'22',
+        		'activity_id'=>'23',
         		'sponsor_id'=>'3',
         	),
         	array(
-        		'activity_id'=>'22',
+        		'activity_id'=>'23',
         		'sponsor_id'=>'4',
         	),
         	array(
-        		'activity_id'=>'22',
+        		'activity_id'=>'23',
         		'sponsor_id'=>'5',
         	),
         	array(
-        		'activity_id'=>'22',
+        		'activity_id'=>'23',
         		'sponsor_id'=>'6',
         	),
             array(
-                'activity_id'=>'22',
+                'activity_id'=>'23',
                 'sponsor_id'=>'8',
             ),
 
 
         	//Tuesday
         	array(
-        		'activity_id'=>'23',
+        		'activity_id'=>'24',
         		'sponsor_id'=>'1',
         	),
         	array(
-        		'activity_id'=>'23',
+        		'activity_id'=>'24',
         		'sponsor_id'=>'2',
         	),
         	array(
-        		'activity_id'=>'23',
+        		'activity_id'=>'24',
         		'sponsor_id'=>'3',
         	),
         	array(
-        		'activity_id'=>'23',
+        		'activity_id'=>'24',
         		'sponsor_id'=>'4',
         	),
         	array(
-        		'activity_id'=>'23',
+        		'activity_id'=>'24',
         		'sponsor_id'=>'5',
         	),
         	array(
-        		'activity_id'=>'23',
+        		'activity_id'=>'24',
         		'sponsor_id'=>'6',
         	),
 
         	//Wednesday
         	array(
-        		'activity_id'=>'24',
+        		'activity_id'=>'25',
         		'sponsor_id'=>'1',
         	),
         	array(
-        		'activity_id'=>'24',
+        		'activity_id'=>'25',
         		'sponsor_id'=>'2',
         	),
         	array(
-        		'activity_id'=>'24',
+        		'activity_id'=>'25',
         		'sponsor_id'=>'3',
         	),
         	array(
-        		'activity_id'=>'24',
+        		'activity_id'=>'25',
         		'sponsor_id'=>'4',
         	),
         	array(
-        		'activity_id'=>'24',
+        		'activity_id'=>'25',
         		'sponsor_id'=>'5',
         	),
         	array(
-        		'activity_id'=>'24',
+        		'activity_id'=>'25',
         		'sponsor_id'=>'6',
         	),
 
         	//Thursday
         	array(
-        		'activity_id'=>'25',
+        		'activity_id'=>'26',
         		'sponsor_id'=>'1',
         	),
         	array(
-        		'activity_id'=>'25',
+        		'activity_id'=>'26',
         		'sponsor_id'=>'2',
         	),
         	array(
-        		'activity_id'=>'25',
+        		'activity_id'=>'26',
         		'sponsor_id'=>'3',
         	),
         	array(
-        		'activity_id'=>'25',
+        		'activity_id'=>'26',
         		'sponsor_id'=>'4',
         	),
         	array(
-        		'activity_id'=>'25',
+        		'activity_id'=>'26',
         		'sponsor_id'=>'5',
         	),
         	array(
-        		'activity_id'=>'25',
+        		'activity_id'=>'26',
         		'sponsor_id'=>'6',
         	),
 
         	//Friday
         	array(
-        		'activity_id'=>'26',
+        		'activity_id'=>'27',
         		'sponsor_id'=>'1',
         	),
         	array(
-        		'activity_id'=>'26',
+        		'activity_id'=>'27',
         		'sponsor_id'=>'2',
         	),
         	array(
-        		'activity_id'=>'26',
+        		'activity_id'=>'27',
         		'sponsor_id'=>'3',
         	),
         	array(
-        		'activity_id'=>'26',
+        		'activity_id'=>'27',
         		'sponsor_id'=>'4',
         	),
         	array(
-        		'activity_id'=>'26',
+        		'activity_id'=>'27',
         		'sponsor_id'=>'5',
         	),
         	array(
-        		'activity_id'=>'26',
+        		'activity_id'=>'27',
         		'sponsor_id'=>'6',
         	)
         );

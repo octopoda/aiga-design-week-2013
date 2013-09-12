@@ -122,10 +122,10 @@ class SpeakersTableSeeder extends Seeder {
 
 			//Thursday
 			array(
-				'name'=>'Merrick Pickents',
-				'title'=>'CreateGate',
-				'link'=>'',
-				'image'=>'',
+				'name'=>'Justin Nygren',
+				'title'=>'Co-founder / The Grove, Dallas',
+				'link'=>'http://aigadfwdw.org/post/60877428467/justin-nygren-co-founder-the-grove-dallas',
+				'image'=>'/images/speakers/justin-nygren.png',
 				'talk_id'=>'12'
 			),				
 
@@ -144,6 +144,13 @@ class SpeakersTableSeeder extends Seeder {
 				'image'=>'/images/speakers/john-keehler.png',
 				'talk_id'=>'22'
 			),	
+			array(
+				'name'=>'Jim David',
+				'title'=>'CEO +  Founder / Leapfrawg.com',
+				'link'=>'http://aigadfwdw.org/post/60877321495/jim-david-ceo-founder-leapfrawg-com-jim-david',
+				'image'=>'/images/speakers/jim-david.png',
+				'talk_id'=>'24'
+			),
 
 
 			//Friday 

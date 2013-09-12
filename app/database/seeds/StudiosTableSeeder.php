@@ -21,7 +21,7 @@ class StudiosTableSeeder extends Seeder {
 
         	//Monday
         	array(
-	        	'activity_id'=>'3',
+	        	'activity_id'=>'4',
 	        	'name'=>'MasonBaronet',
 	        	'address1'=>'1801 Lamar',
 	        	'address2'=>'Ste 250',
@@ -34,7 +34,7 @@ class StudiosTableSeeder extends Seeder {
 	        ),
 
         	array(
-	        	'activity_id'=>'3',
+	        	'activity_id'=>'4',
 	        	'name'=>'Balcom Agency',
 	        	'address1'=>'1500 Ballinger St',
 	        	'address2'=>'',
@@ -47,7 +47,7 @@ class StudiosTableSeeder extends Seeder {
 	        ),
 
 	        array(
-	        	'activity_id'=>'7',
+	        	'activity_id'=>'8',
 	        	'name'=>'Caliber Creative',
 	        	'address1'=>'501 2nd Ave',
 	        	'address2'=>'B-108',
@@ -61,7 +61,7 @@ class StudiosTableSeeder extends Seeder {
 
 	        //Tuesday 
 	         array(
-	        	'activity_id'=>'7',
+	        	'activity_id'=>'8',
 	        	'name'=>'70kft',
 	        	'address1'=>'208 N Market St',
 	        	'address2'=>'#409',
@@ -76,7 +76,7 @@ class StudiosTableSeeder extends Seeder {
 
 	         //Wednesday 
 	          array(
-	        	'activity_id'=>'11',
+	        	'activity_id'=>'12',
 	        	'name'=>'Switch Creative',
 	        	'address1'=>'2701 Fairmount St',
 	        	'address2'=>'',
@@ -90,7 +90,7 @@ class StudiosTableSeeder extends Seeder {
 
 	        //Tuesday 
 	         array(
-	        	'activity_id'=>'11',
+	        	'activity_id'=>'12',
 	        	'name'=>'Starr Conspiracy',
 	        	'address1'=>'1412 W Magnolia Ave',
 	        	'address2'=>'#200',
@@ -105,7 +105,7 @@ class StudiosTableSeeder extends Seeder {
 
 	          //Thursday 
 	          array(
-	        	'activity_id'=>'15',
+	        	'activity_id'=>'16',
 	        	'name'=>'Dallas Entrepreneur Center',
 	        	'address1'=>'1333 North Stemmons',
 	        	'address2'=>'Suite 110',
@@ -118,7 +118,7 @@ class StudiosTableSeeder extends Seeder {
 	        ),
 
 	         array(
-	        	'activity_id'=>'15',
+	        	'activity_id'=>'16',
 	        	'name'=>'Group 1200',
 	        	'address1'=>'1200 Lakeside Pkwy',
 	        	'address2'=>'',
@@ -133,7 +133,7 @@ class StudiosTableSeeder extends Seeder {
 
 	         //Friday 
 	          array(
-	        	'activity_id'=>'18',
+	        	'activity_id'=>'19',
 	        	'name'=>'RBMM',
 	        	'address1'=>'7007 Twins Hills',
 	        	'address2'=>'Suite 200',
@@ -146,7 +146,7 @@ class StudiosTableSeeder extends Seeder {
 	        ),
 
 	         array(
-	        	'activity_id'=>'18',
+	        	'activity_id'=>'19',
 	        	'name'=>'Design Research Center',
 	        	'address1'=>'1901 Main St / UNT Sytems Building',
 	        	'address2'=>'',
