@@ -60,10 +60,7 @@ class Activity_sponsorsTableSeeder extends Seeder {
         		'activity_id'=>'23',
         		'sponsor_id'=>'6',
         	),
-            array(
-                'activity_id'=>'23',
-                'sponsor_id'=>'8',
-            ),
+            
 
 
         	//Tuesday
@@ -91,6 +88,10 @@ class Activity_sponsorsTableSeeder extends Seeder {
         		'activity_id'=>'24',
         		'sponsor_id'=>'6',
         	),
+            array(
+                'activity_id'=>'24',
+                'sponsor_id'=>'8',
+            ),
 
         	//Wednesday
         	array(
