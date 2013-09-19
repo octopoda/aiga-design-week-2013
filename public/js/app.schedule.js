@@ -105,6 +105,7 @@ dw.factory('SponsorService', function ($rootScope, $http, PollingService, FlashS
 
 
 
+
 dw.controller('main-schedule',  function ($scope, $rootScope, _S, EventService, SharedService, iconService, PollingService, TalkService, SponsorService) {
     
     //Get the Schedule
@@ -163,6 +164,7 @@ dw.controller('main-schedule',  function ($scope, $rootScope, _S, EventService, 
     $scope.getSponsors = function (_id)  {
         $scope.sponsors = sponsor_start.get(_id);
     }
+
 
 
 });

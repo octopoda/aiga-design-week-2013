@@ -25,7 +25,8 @@ class ActivitiesTableSeeder extends Seeder {
 								<p>Or - are you starting out or a little in the middle and wanting to know if your portfolio needs some help? Come to PORT COACH at Common Desk!</p>',
 				'image'=>'/images/events/dev-port.png',
 				'register_link'=>'https://aigadfw-devportcoach.eventbrite.com/',
-				'page_type' => 1
+				'page_type' => 1,
+				'visible'=>0
 			),
 
 			array( //2
@@ -37,7 +38,8 @@ class ActivitiesTableSeeder extends Seeder {
 				'description'=>'<p>It’s a party in our new digs. Mix and mingle with new and old friends at Common Desk in Deep Ellum. Stay tuned for more details.</p>',
 				'image'=>'/images/events/kickoff.png',
 				'register_link'=>'http://aigadfwdwbigkickoff13-eorg.eventbrite.com/',
-				'page_type' => 1
+				'page_type' => 1,
+				'visible'=>1
 			),
 
 
@@ -54,13 +56,13 @@ class ActivitiesTableSeeder extends Seeder {
 
 								<p>On Monday, September 23, we start our day with a tour of the world&rsquo;s only vertical theater — which answered these challenges by revolutionizing conventional theater design. The strategy behind the Wyly was to build a &ldquo;theater machine&rdquo; — a theater that could be transformed into a wide array of configurations at the push of a button to allow directors and scenic directors to fulfill their artistic desires while the performance chamber&rsquo;s materials encourage alterations at limited cost.</p>
 
-								<p>Designed by Joshua Prince-Ramos of REX and Rem Koolhaas of the Office for Metropolitan Architecture (OMA), the Dee and Charles Wyly Theatre, seats up to 600 for performances of classical and experimental theatre, contemporary dance, musical performances, lectures and more. </p>
+								<p>Designed by ,Joshua Prince-Ramos of REX and Rem Koolhaas of the Office for Metropolitan Architecture (OMA), the Dee and Charles Wyly Theatre, seats up to 600 for performances of classical and experimental theatre, contemporary dance, musical performances, lectures and more. </p>
 
 								<p><a href="http://www.archdaily.com/37736/dee-and-charles-wyly-theatre-rex-oma/">Click here to read more about this amazing design achievement. </a></p>',
 				'image'=>'/images/events/wylie_tour.png',
 				'register_link'=>'http://aigadfwdesignbig-dfw-eorg.eventbrite.com/',
-				'page-type'=> 1
-
+				'page-type'=> 1,
+				'visible'=>1
 			),
 			array( //4
 				'name'=>'Studio Tours',
@@ -73,7 +75,8 @@ class ActivitiesTableSeeder extends Seeder {
 				<p> Tours start promptly at 3pm. Attendance is free. But you must register to attend. </p>',
 				'image'=>'/images/events/studio-tours.png',
 				'register_link'=>'http://aigadfwdesignbig-dfw-eorg.eventbrite.com/',
-				'page_type'=> 2
+				'page_type'=> 2,
+				'visible'=>1
 			),
 
 			
@@ -86,7 +89,8 @@ class ActivitiesTableSeeder extends Seeder {
 				'description'=>'For the first night of our Design:Big talks, we celebrate the design, promotion and growth of DFW: it’s neighborhoods, personality and branding on a local and national level. The talks for DB:Talks DFW are as follows:',
 				'image'=>'/images/events/db-talks.png',	
 				'register_link'=>'http://aigadfwdesignbig-dfw-eorg.eventbrite.com/',
-				'page_type' => 3
+				'page_type' => 3,
+				'visible'=>1
 			),	
 		
 			
@@ -103,8 +107,8 @@ class ActivitiesTableSeeder extends Seeder {
 <p>Michael and Megan gave this presentation at this year’s SXSW Interactive Conference in Austin TWICE. The second was an encore of the first, and being asked to encore at SXSW Interactive is very rare. Almost 1,000 people attended these presentations at SXSW 2013, but you can hear and participate in &ldquo;How Not 2 Suck…&rdquo; in Dallas at this year’s Design:Big Week.</p>',
 				'image'=>'/images/events/how-not-to-suck.png',
 				'register_link'=>'http://aigadfwdesignbig-grow-eorg.eventbrite.com/',
-				'page_type'=>1
-
+				'page_type'=>1,
+				'visible'=>1
 			),
 			array( //7
 				'name'=>'Adobe Cloud Workshop',
@@ -117,8 +121,8 @@ class ActivitiesTableSeeder extends Seeder {
 					<p>At this workshop, you&rdquo;ll learn how to streamline your workflow with Creative Cloud, new tools and advances to bring your design to life in Photoshop, Illustrator, InDesign, Muse and DPSSE. Instructor: April Clark, owner of Nuance Consulting LLC.</p>',
 				'image'=>'/images/events/cloud-workshops.png',
 				'register_link'=>'http://aigadfwdesignbig-grow-eorg.eventbrite.com/',
-				'page_type'=>1
-
+				'page_type'=>1,
+				'visible'=>1
 			),
 			array( //8
 				'name'=>'Studio Tours',
@@ -131,7 +135,8 @@ class ActivitiesTableSeeder extends Seeder {
 				<p> Tours start promptly at 3pm. Attendance is free. But you must register to attend. </p>',
 				'image'=>'/images/events/studio-tours.png',
 				'register_link'=>'http://aigadfwdesignbig-grow-eorg.eventbrite.com/',
-				'page_type'=> 2
+				'page_type'=> 2,
+				'visible'=>1
 			),
 			
 			
@@ -144,7 +149,8 @@ class ActivitiesTableSeeder extends Seeder {
 				'description'=>'On night two of DB:Talks, we explore design education, approaches to professional development, improving our craft and growth —both in our careers and personal projects. We&rsquo;ll also hear about what&rsquo;s going on in the Dallas Independent School District and some of the pursuits aimed at growing and bettering DISD&rsquo;s initiatives. DB:Talks Grow include:',
 				'image'=>'/images/events/db-talks.png',
 				'register_link'=>'http://aigadfwdesignbig-grow-eorg.eventbrite.com/',
-				'page_type'=>3
+				'page_type'=>3,
+				'visible'=>1
 			),
 			
 		
@@ -161,8 +167,8 @@ class ActivitiesTableSeeder extends Seeder {
 				'description'=>'<p>Learn how to build a website without coding! Adobe&reg; Muse$trade; software, available as part of Adobe Creative Cloud or single app membership, enables graphic designers to create HTML websites for desktop and mobile devices, without writing code. Design unique sites the way you design print layouts. Use familiar features and shortcuts from products like InDesign, access hundreds of web fonts, and add interactivity with built&ndash;in tools. Then, take your site live by publishing with the Adobe Business Catalyst® service or with any hosting provider of your choice. In just one day, you’ll learn how to use this deep set of design and layout features to deliver professional, highly designed websites that meet the latest web standards. Instructor: April Clark, owner of Nuance Consulting LLC.</p>',
 				'image'=>'/images/events/muse-workshops.png',
 				'register_link'=>'http://aigadfwdesignbig-impact-eorg.eventbrite.com/',
-				'page_type'=>1
-
+				'page_type'=>1,
+				'visible'=>1
 			),
 			array( //11
 				'name'=>'Lunch Lab Volume 3: Design Dallas\' Future',
@@ -173,7 +179,8 @@ class ActivitiesTableSeeder extends Seeder {
 				'description'=>'<p>Lunch Lab is about gathering creative thinkers to solve urban issues one hour at a time. The people of Dallas have an opportunity to shape the city’s destiny by claiming its most important asset - streets. Join us in a charrette to begin the development of a clear vision for a Dallas with urban bikeways and trails that connect our downtown districts, off-street trail networks as well as existing or planned cycling infrastructure. You can do a lot with your lunch hour.</p>',
 				'image'=>'/images/events/lunch-lab.png',
 				'register_link'=>'http://aigadfwdesignbig-impact-eorg.eventbrite.com/',
-				'page_type'=>1
+				'page_type'=>1,
+				'visible'=>1
 			),
 			array( //12
 				'name'=>'Studio Tours',
@@ -186,7 +193,8 @@ class ActivitiesTableSeeder extends Seeder {
 				<p> Tours start promptly at 3pm. Attendance is free. But you must register to attend. </p>',
 				'image'=>'/images/events/studio-tours.png',
 				'register_link'=>'http://aigadfwdesignbig-impact-eorg.eventbrite.com/',
-				'page_type'=> 2
+				'page_type'=> 2,
+				'visible'=>1
 			),
 			array( //13
 				'name'=>'DB:Talks DESIGN:IMPACT',
@@ -197,7 +205,8 @@ class ActivitiesTableSeeder extends Seeder {
 				'description'=>'Design that impacts change in our communities and our world.',
 				'image'=>'/images/events/design-impact.png',
 				'register_link'=>'http://aigadfwdesignbig-impact-eorg.eventbrite.com/',
-				'page_type'=> 3
+				'page_type'=> 3,
+				'visible'=>1
 			),
 			
 			
@@ -213,7 +222,8 @@ class ActivitiesTableSeeder extends Seeder {
 				'description'=>'<p>In this workshop, you will learn everything you need to know to design and prepare an iPad app for submission to the Apple App Store without writing code. Adobe Digital Publishing Suite, Single Edition, provides designers with an intuitive way to create engaging, interactive iPad apps without writing code. Design your iPad app layout in InDesign, then move to Digital Publishing Suite, Single Edition to package for the App Store. Plus, Creative Cloud members can now create an unlimited number of iPad apps for submission to the Apple App Store. Instructor: April Clark, owner of Nuance Consulting LLC.</p>',
 				'image'=>'/images/events/dps-workshops.png',
 				'register_link'=>'http://aigadfwdesignbig-interact-eorg.eventbrite.com/',
-				'page_type'=> 1
+				'page_type'=> 1,
+				'visible'=>1
 			),
 			array( //15
 				'name'=>'Shut up and Learn to Code',
@@ -227,7 +237,8 @@ class ActivitiesTableSeeder extends Seeder {
 <p><strong>Presenter: </strong>Zack Davis is the principal of Octopoda Interactive and a hybrid designer.  Some days he works in Illustrator and Photoshop creating identity marks, website mockups,  and illustrations, whereas the next day he will be in his favorite IDE working with PHP, CSS, HTML, and Javascript. Zack specializes in working with local small businesses to get their companies off the ground and to increase their efficiency.</p>',
 				'image'=>'/images/events/shut-up.png',
 				'register_link'=>'http://aigadfwdesignbig-interact-eorg.eventbrite.com/',
-				'page_type'=> 1
+				'page_type'=> 1,
+				'visible'=>1
 			),
 			array( //16
 				'name'=>'Studio Tours',
@@ -240,7 +251,8 @@ class ActivitiesTableSeeder extends Seeder {
 				<p> Tours start promptly at 3pm. Attendance is free. But you must register to attend. </p>',
 				'image'=>'/images/events/studio-tours.png',
 				'register_link'=>'http://aigadfwdesignbig-interact-eorg.eventbrite.com/',
-				'page_type'=> 2
+				'page_type'=> 2,
+				'visible'=>1
 			),
 			
 			array( //17
@@ -252,8 +264,8 @@ class ActivitiesTableSeeder extends Seeder {
 				'description'=>'Design and user interaction. Thoughts on changing the way we think about engaging audiences and communities.',
 				'image'=>'/images/events/db-talks.png',
 				'register_link'=>'http://aigadfwdesignbig-interact-eorg.eventbrite.com/',
-				'page_type'=>3
-
+				'page_type'=>3,
+				'visible'=>1
 			),
 			
 
@@ -270,7 +282,7 @@ class ActivitiesTableSeeder extends Seeder {
 
 					<p>We will be joined by the following panelists: </p>
 					<ul>
-					<li>Herbert Austin / District Director for the U. S. Small Business Administration (SBA), DFW  </li>
+					<li>Herbert Aus,tin / District Director for the U. S. Small Business Administration (SBA), DFW  </li>
 					<li>Kate Canales / Director of Design Innovation at SMU’s School of Engineering </li>
 					<li>Nick Clark / Founder of Common Desk and ROAM </li>
 					<li>Jim Hart / Director of Arts Entrepreneurship at SMU.</li>
@@ -278,7 +290,8 @@ class ActivitiesTableSeeder extends Seeder {
 					',
 				'image'=>'/images/events/design-ent@2x.png',
 				'register_link'=>'http://aigadfwdesignbig-forward-eorg.eventbrite.com/',
-				'page_type'=>1
+				'page_type'=>1,
+				'visible'=>1
 			),
 			array( //19
 				'name'=>'Studio Tours',
@@ -291,7 +304,8 @@ class ActivitiesTableSeeder extends Seeder {
 				<p> Tours start promptly at 3pm. Attendance is free. But you must register to attend. </p>',
 				'image'=>'/images/events/studio-tours.png',
 				'register_link'=>'http://aigadfwdesignbig-forward-eorg.eventbrite.com/',
-				'page_type'=>2
+				'page_type'=>2,
+				'visible'=>1
 			),
 			array( //20
 				'name'=>'DB:Talks DESIGN:FORWARD',
@@ -302,7 +316,8 @@ class ActivitiesTableSeeder extends Seeder {
 				'description'=>'The future of design and progressing the initiatives of our community and our professions.',
 				'image'=>'/images/events/db-talks.png',
 				'register_link'=>'http://aigadfwdesignbig-forward-eorg.eventbrite.com/',
-				'page_type'=>3
+				'page_type'=>3,
+				'visible'=>1
 			),
 			
 
@@ -318,7 +333,8 @@ class ActivitiesTableSeeder extends Seeder {
 <p>The AIGA Fellow Award is the highest honor an AIGA chapter may bestow upon one of its members. With it, we honor senior-level members who have made a significant contribution to raising the standards of excellence in practice and conduct within our design community. The areas of education, writing, leadership, and reputation, as well as the practice of design, have equal consideration in measuring significant contribution.  </p>',
 				'image'=>'/images/events/fellows-award.png',
 				'register_link'=>'http://aigadfwdesignbig-heart-eorg.eventbrite.com/',
-				'page_type'=>5
+				'page_type'=>5,
+				'visible'=>1
 			),
 
 
@@ -333,7 +349,8 @@ class ActivitiesTableSeeder extends Seeder {
 				'description'=>'A Special Thanks to our Sponsors',
 				'image'=>'/images/events/sponsors@2x.png',
 				'register_link'=>null,
-				'page_type'=>4
+				'page_type'=>4,
+				'visible'=>1
 			),
 			//Monday
 			array( //23
@@ -345,7 +362,8 @@ class ActivitiesTableSeeder extends Seeder {
 				'description'=>'A Special Thanks to our Sponsors',
 				'image'=>'/images/events/sponsors@2x.png',
 				'register_link'=>null,
-				'page_type'=>4
+				'page_type'=>4,
+				'visible'=>1
 			),
 			//Tuesday
 			array( //24
@@ -357,7 +375,8 @@ class ActivitiesTableSeeder extends Seeder {
 				'description'=>'A Special Thanks to our Sponsors',
 				'image'=>'/images/events/sponsors@2x.png',
 				'register_link'=>null,
-				'page_type'=>4
+				'page_type'=>4,
+				'visible'=>1
 			),
 			//Wednesday
 			array( //25
@@ -369,7 +388,8 @@ class ActivitiesTableSeeder extends Seeder {
 				'description'=>'A Special Thanks to our Sponsors',
 				'image'=>'/images/events/sponsors@2x.png',
 				'register_link'=>null,
-				'page_type'=>4
+				'page_type'=>4,
+				'visible'=>1
 			),
 			//Thursday
 			array( //26
@@ -381,7 +401,8 @@ class ActivitiesTableSeeder extends Seeder {
 				'description'=>'A Special Thanks to our Sponsors',
 				'image'=>'/images/events/sponsors@2x.png',
 				'register_link'=>null,
-				'page_type'=>4
+				'page_type'=>4,
+				'visible'=>1
 			),
 			//Friday
 			array( //27
@@ -393,7 +414,8 @@ class ActivitiesTableSeeder extends Seeder {
 				'description'=>'A Special Thanks to our Sponsors',
 				'image'=>'/images/events/sponsors@2x.png',
 				'register_link'=>null,
-				'page_type'=>4
+				'page_type'=>4,
+				'visible'=>1
 			),
 			
 		);

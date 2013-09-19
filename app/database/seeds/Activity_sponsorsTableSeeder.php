@@ -34,6 +34,10 @@ class Activity_sponsorsTableSeeder extends Seeder {
         		'activity_id'=>'22',
         		'sponsor_id'=>'7',
         	),
+            array(
+                'activity_id'=>'22',
+                'sponsor_id'=>'9',
+            ),
 
         	//Monday
         	array(
@@ -60,6 +64,10 @@ class Activity_sponsorsTableSeeder extends Seeder {
         		'activity_id'=>'23',
         		'sponsor_id'=>'6',
         	),
+            array(
+                'activity_id'=>'23',
+                'sponsor_id'=>'9',
+            ),
             
 
 
@@ -92,6 +100,10 @@ class Activity_sponsorsTableSeeder extends Seeder {
                 'activity_id'=>'24',
                 'sponsor_id'=>'8',
             ),
+            array(
+                'activity_id'=>'24',
+                'sponsor_id'=>'9',
+            ),
 
         	//Wednesday
         	array(
@@ -118,6 +130,10 @@ class Activity_sponsorsTableSeeder extends Seeder {
         		'activity_id'=>'25',
         		'sponsor_id'=>'6',
         	),
+            array(
+                'activity_id'=>'25',
+                'sponsor_id'=>'9',
+            ),
 
         	//Thursday
         	array(
@@ -144,6 +160,10 @@ class Activity_sponsorsTableSeeder extends Seeder {
         		'activity_id'=>'26',
         		'sponsor_id'=>'6',
         	),
+            array(
+                'activity_id'=>'26',
+                'sponsor_id'=>'9',
+            ),
 
         	//Friday
         	array(
@@ -169,7 +189,11 @@ class Activity_sponsorsTableSeeder extends Seeder {
         	array(
         		'activity_id'=>'27',
         		'sponsor_id'=>'6',
-        	)
+        	),
+            array(
+                'activity_id'=>'27',
+                'sponsor_id'=>'9',
+            ),
         );
 
         // Uncomment the below to run the seeder

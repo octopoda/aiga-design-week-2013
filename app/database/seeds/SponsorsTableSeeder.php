@@ -45,15 +45,21 @@ class SponsorsTableSeeder extends Seeder {
 				'description'=> '',
 			),
 			array( //7
-				'name'=>'Brother Ubs BBQ',
-				'link'=>'http://brotherubsbbq.com',
-				'image'=> '/images/sponsors/brother-ubs.png',
+				'name'=>'Appleton',
+				'link'=>'http://appleton.com',
+				'image'=> '/images/sponsors/',
 				'description'=> '',
 			),
 			array( //8
 				'name'=>'OLMSTED-KIRK',
 				'link'=>'http://okpaper.com/',
 				'image'=> '/images/sponsors/ok-paper.jpg',
+				'description'=> '',
+			),
+			array( //8
+				'name'=>'Streamtime',
+				'link'=>'http://streamtime.net/',
+				'image'=> '/images/sponsors/streamtime.jpg',
 				'description'=> '',
 			)
 		);
