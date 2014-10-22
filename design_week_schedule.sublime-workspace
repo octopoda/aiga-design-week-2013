@@ -1,0 +1,2310 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"table",
+				"table"
+			],
+			[
+				"all",
+				"allEvents"
+			],
+			[
+				"Ven",
+				"VenuesRepositoryInterface"
+			],
+			[
+				"Speaks",
+				"SpeakersRepositoryInterface"
+			],
+			[
+				"script_",
+				"script_embed"
+			],
+			[
+				"trans",
+				"transaction_ids"
+			],
+			[
+				"fet",
+				"fetchByKey  (function)"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"t",
+				"table-column-group"
+			],
+			[
+				"function",
+				"function_exists"
+			],
+			[
+				"paginat",
+				"paginateClass"
+			],
+			[
+				"transition",
+				"transition-property:   (property)"
+			],
+			[
+				"sub",
+				"substr"
+			],
+			[
+				"strre",
+				"str_replace"
+			],
+			[
+				"fetb",
+				"fetchByKey  (function)"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"background-co",
+				"background-attachment:   (property)"
+			],
+			[
+				"innerHe",
+				"innerHeight  (variable)"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"create",
+				"createFromProject  (function)"
+			],
+			[
+				"im",
+				"imagesForProject  (function)"
+			],
+			[
+				"appe",
+				"appearance_id  (variable)"
+			],
+			[
+				"new",
+				"new_id_with_cats"
+			],
+			[
+				"m",
+				"middle"
+			],
+			[
+				"ver",
+				"vertical-align:   (property)"
+			],
+			[
+				"add",
+				"addScriptFunctions  (function)"
+			],
+			[
+				"displ",
+				"displayHear"
+			],
+			[
+				"display",
+				"displayInterest"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"e",
+				"each"
+			],
+			[
+				"pu",
+				"published  (variable)"
+			],
+			[
+				"san",
+				"ssh2_auth_none"
+			],
+			[
+				"D",
+				"DOCUMENT_ROOT"
+			],
+			[
+				"sera",
+				"serialize  (function)"
+			],
+			[
+				"history",
+				"historySupported"
+			],
+			[
+				"hist",
+				"historySupported"
+			],
+			[
+				"admin",
+				"ADMIN_PATH"
+			],
+			[
+				"Pr",
+				"ProductName"
+			],
+			[
+				"P",
+				"ProductImage  (variable)"
+			],
+			[
+				"chec",
+				"checkUsername  (function)"
+			],
+			[
+				"last",
+				"last_login"
+			],
+			[
+				"sales",
+				"sales_tax"
+			],
+			[
+				"expire",
+				"expireYear"
+			],
+			[
+				"fou",
+				"focus"
+			],
+			[
+				"mi",
+				"miniCart"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Design_Week/app/database/seeds/ActivitiesTableSeeder.php",
+			"settings":
+			{
+				"buffer_size": 22265,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Design_Week/app/database/seeds/Activity_sponsorsTableSeeder.php",
+			"settings":
+			{
+				"buffer_size": 4448,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Design_Week/app/database/seeds/SponsorsTableSeeder.php",
+			"settings":
+			{
+				"buffer_size": 1674,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Design_Week/public/views/partials/schedule.html",
+			"settings":
+			{
+				"buffer_size": 6842,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Design_Week/public/js/app.schedule.js",
+			"settings":
+			{
+				"buffer_size": 4578,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Design_Week/app/config/database.php",
+			"settings":
+			{
+				"buffer_size": 3484,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Design_Week/app/database/migrations/2013_09_19_161310_add_visible_to_activites.php",
+			"settings":
+			{
+				"buffer_size": 606,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Design_Week/public/sass/functions/_responsivity.scss",
+			"settings":
+			{
+				"buffer_size": 1489,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"jquey",
+				"Snippet: Google AJAX Libraries: jQuery"
+			],
+			[
+				"tidy",
+				"Tidy HTML"
+			],
+			[
+				"html",
+				"Set Syntax: HTML5"
+			],
+			[
+				"Tidy",
+				"Tidy HTML"
+			],
+			[
+				"htmlti",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"tid",
+				"Tidy HTML"
+			],
+			[
+				"se",
+				"Set Syntax: PHP"
+			],
+			[
+				"set p",
+				"Set Syntax: PHP"
+			],
+			[
+				"renam",
+				"Emmet: Rename Tag"
+			],
+			[
+				"renm",
+				"Emmet: Rename Tag"
+			],
+			[
+				"e",
+				"Emmet: Rename Tag"
+			],
+			[
+				"emm",
+				"Emmet: Rename Tag"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"snipp",
+				"Snippet: IE Conditional Comment: HTML5 Shim"
+			],
+			[
+				"Snippet: ",
+				"Snippet: <video>"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"git ",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"snippet ",
+				"Snippet: html"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"file clos",
+				"File: Close All"
+			],
+			[
+				"file save",
+				"File: Save All"
+			],
+			[
+				"clos",
+				"File: Close All"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"codeIn",
+				"SublimeCodeIntel: Enable Live Autocompletion"
+			],
+			[
+				"insal",
+				"SublimeCodeIntel: Disable Live Autocompletion"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ja",
+				"Format: Javascript"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"spelli",
+				"Snippet: Google AJAX Libraries: jQuery"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git comm",
+				"Git: Custom Command"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git bl",
+				"Git: Blame"
+			],
+			[
+				"",
+				"Git: Blame"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/phuzion/Sites/aiga/Design_Week/app/database/seeds/SpeakersTableSeeder.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/config/database.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/database/seeds/Activity_sponsorsTableSeeder.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/sass/functions/_animation.scss",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/database/seeds/ActivitiesTableSeeder.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/database/seeds/TalkTableSeeder.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/database/seeds/StudiosTableSeeder.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/views/partials/schedule.html",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/views/layouts/application.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/sass/app/_schedule.scss",
+		"/Users/phuzion/Sites/aiga/Design_Week/Boxfile",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/database/seeds/SponsorsTableSeeder.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/database/seeds/DaysTableSeeder.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/routes.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/Boxfile.install",
+		"/Users/phuzion/Sites/aiga/Design_Week/composer.json",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/js/app.navigation.js",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/js/app.schedule.js",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/css/gumby.css",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/controllers/aiga/ActivityController.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/repositories/EloquentActivityRepository.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/models/Activity.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/models/Sponsor.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/database/seeds/DatabaseSeeder.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/database/migrations/2013_09_05_204404_activity_sponsors.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/database/seeds/SponsorForActivityTableSeeder.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/controllers/aiga/DaysController.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/repositories/ActivityRepositoryInterface.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/sass/var/_settings.scss",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/sass/app/_navigation.scss",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/sass/functions/_colors.scss",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/sass/_base.scss",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/sass/functions/_responsivity.scss",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/.sass-cache/5f7662065dcce1410165ddfe955efc9b7dc33769/_color.scssc",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/config.rb",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/views/partials/navigation.html",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/.sass-cache/13f8a0ad5bed2fe82a2cb229a86c2630b66c4cbd/_navigation.scssc",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/repositories/EloquentSpeakersRepository.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/models/Talk.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/database/migrations/2013_09_01_025536_create_talks_table.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/models/Studio.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/models/Speaker.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/controllers/aiga/SpeakersController.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/database/migrations/2013_08_06_193710_create_venues_table.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/database/migrations/2013_09_01_004603_create_studios_table.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/database/migrations/2013_08_06_193426_create_speakers_table.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/database/migrations/2013_08_06_193337_create_activities_table.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/models/Day.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/repositories/EloquentDaysRepository.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/database/seeds/VenuesTableSeeder.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/js/libs/gumby.min.js",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/js/app.js",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/.sass-cache/13f8a0ad5bed2fe82a2cb229a86c2630b66c4cbd/_schedule.scssc",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/database/seeds/StudiosTableTableSeeder.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/database/migrations/2013_08_06_193841_create_sponsors_table.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/vendor/composer/autoload_classmap.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/database/seeds/EventsTableSeeder.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/js/plugins.js",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/js/main.js",
+		"/Users/phuzion/Sites/aiga/08_28_13/public/sass/app/_navigation.scss",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/js/libs/snap.js",
+		"/Users/phuzion/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/config/workbench.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/bootstrap/autoload.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/vendor/autoload.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/controllers/aiga/EventsController.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/models/Event.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/repositories/EloquentEventsRepository.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/vendor/laravel/framework/src/Illuminate/Database/Connection.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/start/global.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/controllers/aiga/SponsorsController.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/models/Venue.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/key",
+		"/Users/phuzion/Sites/aiga/Design_Week/key.pub",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/config/Production/database.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/config/app.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/config/cache.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/.gitignore",
+		"/Users/phuzion/Sites/aiga/design_week/recompose.sh",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/config/dev/database.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/config/dev/app.php",
+		"/Users/phuzion/Sites/aiga/recompose.sh",
+		"/Users/phuzion/Sites/aiga/Design_Week/deploy.sh",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/.sass-cache/75640fff35f57825ee18f946c95ef10ad0cf8fc0/_shared.scssc",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/sass/_fonts.scss",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/.sass-cache/d24476e542651b92b097d5f0e106844c9fb8c66c/_fonts.scssc",
+		"/Users/phuzion/Sites/aiga/Design_Week/vendor/phpunit/phpunit/Tests/_files/structureExpected.xml",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/sass/sprites/_mixin-sprites.scss",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/sass/style.scss",
+		"/Users/phuzion/Sites/aiga/design_week_schedule.sublime-workspace",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/sass/_grid.scss",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/js/app.event.js",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/sass/ui/_navbar.scss",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/sass/gumby.scss",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/database/migrations/2013_08_21_205118_add_images_to_events_table.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/database/migrations/2013_08_15_142426_add_date_to_days_table.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/sass/app/_restaurant.scss",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/sass/_dev.scss",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/.htaccess",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/config/view.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/app/application.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/app/filters.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/app/index.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/app/layouts/application.php",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/Gruntfile.js",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/build/index.html",
+		"/Users/phuzion/Sites/aiga/Design_Week/public/app/index.html",
+		"/Users/phuzion/Sites/aiga/Schedule/app/js/app.js",
+		"/Users/phuzion/Sites/aiga/Schedule/app/js/app.navigation.js",
+		"/Users/phuzion/Sites/aiga/Schedule/app/partials/schedule.html",
+		"/Users/phuzion/Sites/aiga/Schedule/app/index.html",
+		"/Users/phuzion/Sites/aiga/Schedule/app/js/controllers.js",
+		"/Users/phuzion/Sites/aiga/Schedule/app/js/services.js",
+		"/Users/phuzion/Sites/aiga/Schedule/app/js/filters.js",
+		"/Users/phuzion/Sites/aiga/Schedule/app/js/directives.js",
+		"/Users/phuzion/Sites/aiga/Schedule/app/partials/navigation.html",
+		"/Users/phuzion/Sites/aiga/REST/app/routes.php",
+		"/Users/phuzion/Sites/aiga/REST/app/repositories/DaysRepositoryInterface.php",
+		"/Users/phuzion/Sites/aiga/REST/app/config/app.php",
+		"/Users/phuzion/Sites/aiga/REST/app/models/Day.php",
+		"/Users/phuzion/Sites/aiga/REST/app/controllers/aiga/DaysController.php",
+		"/Users/phuzion/Sites/aiga/REST/app/models/Event.php",
+		"/Users/phuzion/Sites/aiga/REST/app/repositories/EloquentDaysRepository.php",
+		"/Users/phuzion/Sites/aiga/REST/composer.json",
+		"/Users/phuzion/Sites/aiga/REST/app/repositories/EloquentEventsRepository.php",
+		"/Users/phuzion/Sites/aiga/REST/app/models/Sponsor.php",
+		"/Users/phuzion/Sites/aiga/REST/app/models/Venue.php",
+		"/Users/phuzion/Sites/aiga/REST/app/models/Speaker.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/phuzion/Sites/aiga/Design_Week",
+			"/Users/phuzion/Sites/RPG-site",
+			"/Users/phuzion/Sites/renal",
+			"/Users/phuzion/Sites/renal/css/sass",
+			"/Users/phuzion/Sites/reconnect",
+			"/Users/phuzion/Sites/mcdaniel/",
+			"/Users/phuzion/Sites/mcdaniel/plugins",
+			"/Users/phuzion/Sites/mcdaniel/lib",
+			"/Users/phuzion/Sites/blackink",
+			"/Users/phuzion/Sites/innovation",
+			"",
+			"/",
+			"/users/change_password.php",
+			"change_password.php",
+			"join.php",
+			"",
+			"order_complete.php"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"(\n",
+			"'v,isible'=>1",
+			"),",
+			"'activity_id'=>",
+			"'activity_id' => ",
+			"array( //",
+			"'activity_id'=>'19'",
+			"'activity_id'=>'16'",
+			"'activity_id'=>'12'",
+			"'activity_id'=>'8'",
+			"'activity_id'=>'4',",
+			"4",
+			"'activity_id' => 13,",
+			"'activity_id' => 9,",
+			"'activity_id' => 5",
+			"26",
+			"24",
+			"23",
+			"22",
+			"array( //",
+			"array( //2",
+			"array( //",
+			"sponsor@2x.png'",
+			"'image'=>null,",
+			"TalkService",
+			"!important",
+			"23",
+			"22",
+			"$rdquo;",
+			"'",
+			"”",
+			"“",
+			"row.speaker",
+			"speak.",
+			"<p>",
+			"’",
+			"”",
+			"“",
+			"evt.venue.",
+			"'speaker_id'",
+			"EventsTable",
+			"EventsTableSeeder",
+			"eventsTableSeeder",
+			";",
+			"studiotabletable",
+			",,",
+			"image'=>",
+			"'title'",
+			"17",
+			"7",
+			"'day_id'=>6,",
+			"'activity_id' => 9,",
+			"'day_id'=>5,",
+			"'",
+			"'day_id'=>4,",
+			"create_create_talks_Table",
+			"create_creat_talks_Table",
+			"'",
+			"”",
+			"“",
+			"”",
+			"“",
+			"•	",
+			"'day_id'=>3,",
+			"day_id'=>2,",
+			"loading",
+			"/venues",
+			"create_events_table",
+			"<li>",
+			"li",
+			"$animation2;",
+			"$animation1;",
+			"$name",
+			"keyframs",
+			"10",
+			"DaysRepositoryInterface",
+			"EventRepositoryInterface",
+			"ActivityRepositoryInterface",
+			"activity",
+			"ActivityRepositoryInterface",
+			"$events",
+			"indById",
+			"$this->events",
+			"sto",
+			"s",
+			"div",
+			"header",
+			"'venue_id'",
+			".jpg",
+			"url('",
+			"$black",
+			"blue",
+			"$black",
+			"$orange",
+			"$black",
+			"tablet-above",
+			"six columns ",
+			"'description'=>''",
+			"'description'",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris cursus neque metus, ut lacinia eros fringilla at. Morbi eget pellentesque  velit. ",
+			"sprites/base/1x/*.png",
+			"text-shadow",
+			"@include box-shadow",
+			"none",
+			"text-align",
+			"text",
+			"text-sh",
+			"url('",
+			"Display ",
+			"url('",
+			"venues",
+			"dt",
+			"1.0.7",
+			"_S",
+			"AddDateToDaysTable",
+			"body-",
+			"app",
+			"app ",
+			"app",
+			"days",
+			"Days",
+			"description",
+			"Sponsors",
+			"Events",
+			"Days",
+			"btn-mini",
+			"btn-small",
+			"btn"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Address:stateSelect('state_id')",
+			"h3"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Design_Week/app/database/seeds/ActivitiesTableSeeder.php",
+					"settings":
+					{
+						"buffer_size": 22265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17692,
+								17692
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"is_xml": false,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4201.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Design_Week/app/database/seeds/Activity_sponsorsTableSeeder.php",
+					"settings":
+					{
+						"buffer_size": 4448,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4154,
+								4154
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"is_xml": false,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1354.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Design_Week/app/database/seeds/SponsorsTableSeeder.php",
+					"settings":
+					{
+						"buffer_size": 1674,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1538,
+								1538
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"is_xml": false,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Design_Week/public/views/partials/schedule.html",
+					"settings":
+					{
+						"buffer_size": 6842,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								334,
+								334
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"is_xml": false,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Design_Week/public/js/app.schedule.js",
+					"settings":
+					{
+						"buffer_size": 4578,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4572,
+								4572
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 912.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Design_Week/app/config/database.php",
+					"settings":
+					{
+						"buffer_size": 3484,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2410,
+								2410
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"is_xml": false,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 243.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Design_Week/app/database/migrations/2013_09_19_161310_add_visible_to_activites.php",
+					"settings":
+					{
+						"buffer_size": 606,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								510,
+								510
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"is_xml": false,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Design_Week/public/sass/functions/_responsivity.scss",
+					"settings":
+					{
+						"buffer_size": 1489,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								807,
+								807
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"app.sc",
+				"Design_Week/public/js/app.schedule.js"
+			],
+			[
+				"sche",
+				"Design_Week/public/views/partials/schedule.html"
+			],
+			[
+				"_anima",
+				"Design_Week/public/sass/functions/_animation.scss"
+			],
+			[
+				"sched",
+				"Design_Week/public/views/partials/schedule.html"
+			],
+			[
+				"data",
+				"Design_Week/app/config/database.php"
+			],
+			[
+				"_sche",
+				"Design_Week/public/sass/app/_schedule.scss"
+			],
+			[
+				"app",
+				"Design_Week/public/views/layouts/application.php"
+			],
+			[
+				"b",
+				"Design_Week/Boxfile"
+			],
+			[
+				"rout",
+				"Design_Week/app/routes.php"
+			],
+			[
+				"box",
+				"Design_Week/Boxfile.install"
+			],
+			[
+				"datab",
+				"Design_Week/app/config/database.php"
+			],
+			[
+				"com",
+				"Design_Week/composer.json"
+			],
+			[
+				"app.n",
+				"Design_Week/public/js/app.navigation.js"
+			],
+			[
+				"spon",
+				"Design_Week/app/database/seeds/SponsorsTableSeeder.php"
+			],
+			[
+				"_gumb",
+				"Design_Week/public/css/gumby.css"
+			],
+			[
+				"activitiestab",
+				"Design_Week/app/database/seeds/ActivitiesTableSeeder.php"
+			],
+			[
+				"_sch",
+				"Design_Week/public/sass/app/_schedule.scss"
+			],
+			[
+				"act",
+				"Design_Week/app/models/Activity.php"
+			],
+			[
+				"activity",
+				"Design_Week/app/repositories/EloquentActivityRepository.php"
+			],
+			[
+				"acti",
+				"Design_Week/app/repositories/ActivityRepositoryInterface.php"
+			],
+			[
+				"days",
+				"Design_Week/app/controllers/aiga/DaysController.php"
+			],
+			[
+				"activit",
+				"Design_Week/app/controllers/aiga/ActivityController.php"
+			],
+			[
+				"_col",
+				"Design_Week/public/sass/functions/_colors.scss"
+			],
+			[
+				"_color",
+				"Design_Week/public/sass/functions/_colors.scss"
+			],
+			[
+				"_anim",
+				"Design_Week/public/sass/functions/_animation.scss"
+			],
+			[
+				"_sett",
+				"Design_Week/public/sass/var/_settings.scss"
+			],
+			[
+				"respon",
+				"Design_Week/public/sass/functions/_responsivity.scss"
+			],
+			[
+				"_colo",
+				"Design_Week/public/.sass-cache/5f7662065dcce1410165ddfe955efc9b7dc33769/_color.scssc"
+			],
+			[
+				"_nav",
+				"Design_Week/public/sass/app/_navigation.scss"
+			],
+			[
+				"appl",
+				"Design_Week/public/views/layouts/application.php"
+			],
+			[
+				"_bas",
+				"Design_Week/public/sass/_base.scss"
+			],
+			[
+				"gumby",
+				"Design_Week/public/css/gumby.css"
+			],
+			[
+				"activitie",
+				"Design_Week/app/database/seeds/ActivitiesTableSeeder.php"
+			],
+			[
+				"schedule",
+				"Design_Week/public/views/partials/schedule.html"
+			],
+			[
+				"_sc",
+				"Design_Week/public/sass/app/_schedule.scss"
+			],
+			[
+				"sponse",
+				"Design_Week/app/database/seeds/SponsorsTableSeeder.php"
+			],
+			[
+				"talk",
+				"Design_Week/app/database/seeds/TalkTableSeeder.php"
+			],
+			[
+				"speak",
+				"Design_Week/app/database/seeds/SpeakersTableSeeder.php"
+			],
+			[
+				"naviga",
+				"Design_Week/public/views/partials/navigation.html"
+			],
+			[
+				"_nag",
+				"Design_Week/public/sass/app/_navigation.scss"
+			],
+			[
+				"_nvia",
+				"Design_Week/public/.sass-cache/13f8a0ad5bed2fe82a2cb229a86c2630b66c4cbd/_navigation.scssc"
+			],
+			[
+				"navigation",
+				"Design_Week/public/views/partials/navigation.html"
+			],
+			[
+				"nav",
+				"Design_Week/public/views/partials/navigation.html"
+			],
+			[
+				"_scheu",
+				"Design_Week/public/sass/app/_schedule.scss"
+			],
+			[
+				"app.sch",
+				"Design_Week/public/js/app.schedule.js"
+			],
+			[
+				"create_acti",
+				"Design_Week/app/database/migrations/2013_08_06_193337_create_activities_table.php"
+			],
+			[
+				"_navi",
+				"Design_Week/public/.sass-cache/13f8a0ad5bed2fe82a2cb229a86c2630b66c4cbd/_navigation.scssc"
+			],
+			[
+				"schdule",
+				"Design_Week/public/views/partials/schedule.html"
+			],
+			[
+				"app.a",
+				"Design_Week/public/js/app.navigation.js"
+			],
+			[
+				"app.",
+				"Design_Week/public/js/app.js"
+			],
+			[
+				"_base",
+				"Design_Week/public/sass/_base.scss"
+			],
+			[
+				"_r",
+				"Design_Week/public/sass/functions/_responsivity.scss"
+			],
+			[
+				"_shd",
+				"Design_Week/public/sass/app/_schedule.scss"
+			],
+			[
+				"sch",
+				"Design_Week/public/views/partials/schedule.html"
+			],
+			[
+				"main.j",
+				"Design_Week/public/js/main.js"
+			],
+			[
+				"plugins.",
+				"Design_Week/public/js/plugins.js"
+			],
+			[
+				"app.nav",
+				"Design_Week/public/js/app.navigation.js"
+			],
+			[
+				"activitycon",
+				"Design_Week/app/controllers/aiga/ActivityController.php"
+			],
+			[
+				"connection",
+				"Design_Week/vendor/laravel/framework/src/Illuminate/Database/Connection.php"
+			],
+			[
+				"app.js",
+				"Design_Week/public/js/app.js"
+			],
+			[
+				"navi",
+				"Design_Week/public/views/partials/navigation.html"
+			],
+			[
+				"_font",
+				"Design_Week/public/sass/_fonts.scss"
+			],
+			[
+				"_seet",
+				"Design_Week/vendor/phpunit/phpunit/Tests/_files/structureExpected.xml"
+			],
+			[
+				"_reso",
+				"Design_Week/public/sass/functions/_responsivity.scss"
+			],
+			[
+				"_animat",
+				"Design_Week/public/sass/functions/_animation.scss"
+			],
+			[
+				"applica",
+				"Design_Week/public/views/layouts/application.php"
+			],
+			[
+				"_navb",
+				"Design_Week/public/sass/ui/_navbar.scss"
+			],
+			[
+				"_na",
+				"Design_Week/public/sass/app/_navigation.scss"
+			],
+			[
+				"gum",
+				"Design_Week/public/sass/gumby.scss"
+			],
+			[
+				"app.j",
+				"Design_Week/public/js/app.js"
+			],
+			[
+				"route",
+				"Design_Week/app/routes.php"
+			],
+			[
+				"event",
+				"Design_Week/app/models/Event.php"
+			],
+			[
+				"appli",
+				"Design_Week/public/views/layouts/application.php"
+			],
+			[
+				"schdu",
+				"Design_Week/public/views/partials/schedule.html"
+			],
+			[
+				"navigt",
+				"Design_Week/public/views/partials/navigation.html"
+			],
+			[
+				"func",
+				"lib/functions.php"
+			],
+			[
+				"sitedi",
+				"plugins/lib/sitedisplay.php"
+			],
+			[
+				"di",
+				"display.php"
+			],
+			[
+				"dis",
+				"display.php"
+			],
+			[
+				"disp",
+				"lib/display.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"headr",
+				"includes/header.php"
+			],
+			[
+				"footer",
+				"includes/footer.php"
+			],
+			[
+				"header",
+				"includes/header.php"
+			],
+			[
+				"_var",
+				"css/sass/_variables.scss"
+			],
+			[
+				"head",
+				"includes/header.php"
+			],
+			[
+				"ind",
+				"index.php"
+			],
+			[
+				"foote",
+				"includes/footer.php"
+			],
+			[
+				"_mixin",
+				"css/sass/_mixins.scss"
+			],
+			[
+				"scrip",
+				"js/script.js"
+			],
+			[
+				"heade",
+				"includes/header.php"
+			],
+			[
+				"admin",
+				"js/admin/admin_functions.js"
+			],
+			[
+				"prod",
+				"plugins/lib/productcategories.php"
+			],
+			[
+				"plug",
+				"js/plugins.js"
+			],
+			[
+				"dtab",
+				"lib/databaseObject.php"
+			],
+			[
+				"cont",
+				"lib/content.php"
+			],
+			[
+				"produ",
+				"plugins/lib/products.php"
+			],
+			[
+				"mo",
+				"lib/moduledecoder.php"
+			],
+			[
+				"site",
+				"plugins/lib/sitedisplay.php"
+			],
+			[
+				"module",
+				"lib/moduledecoder.php"
+			],
+			[
+				"dispa",
+				"lib/display.php"
+			],
+			[
+				"conte",
+				"lib/content.php"
+			],
+			[
+				"modul",
+				"lib/moduledecoder.php"
+			],
+			[
+				"form_cont",
+				"staff/forms/content/form_content.php"
+			],
+			[
+				"articl",
+				"plugins/lib/article.php"
+			],
+			[
+				"archi",
+				"plugins/lib/archive.php"
+			],
+			[
+				"sited",
+				"plugins/lib/sitedisplay.php"
+			],
+			[
+				"content",
+				"lib/content.php"
+			],
+			[
+				"productca",
+				"plugins/lib/productcategories.php"
+			],
+			[
+				"xmlma",
+				"attributes/XMLS/xmlmap.xml"
+			],
+			[
+				"pro",
+				"plugins/lib/products.php"
+			],
+			[
+				"users",
+				"lib/users.php"
+			],
+			[
+				"add",
+				"lib/address.php"
+			],
+			[
+				"addre",
+				"lib/address.php"
+			],
+			[
+				"ordr",
+				"attributes/XMLS/orders.xml"
+			],
+			[
+				"order",
+				"plugins/lib/orders.php"
+			],
+			[
+				"user.xml",
+				"attributes/XMLS/Users.xml"
+			],
+			[
+				"user",
+				"lib/users.php"
+			],
+			[
+				"functions",
+				"lib/functions.php"
+			],
+			[
+				"navigat",
+				"lib/navigation.php"
+			],
+			[
+				"foot",
+				"includes/footer.php"
+			],
+			[
+				"_gri",
+				"css/sass/_grid.scss"
+			],
+			[
+				"ord",
+				"plugins/lib/orders.php"
+			],
+			[
+				"pur",
+				"plugins/lib/purchases.php"
+			],
+			[
+				"down",
+				"store/download.php"
+			],
+			[
+				"bas",
+				"css/sass/basic.scss"
+			],
+			[
+				"store",
+				"store.php"
+			],
+			[
+				"databas",
+				"lib/databaseObject.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/phuzion/Sites/RPG-Site/renal.sublime-project"
+			],
+			[
+				"lif",
+				"/Users/phuzion/Sites/LIFT/lift.sublime-project"
+			],
+			[
+				"de",
+				"/Users/phuzion/Sites/aiga/design_week_schedule.sublime-project"
+			],
+			[
+				"mc",
+				"/Users/phuzion/Sites/mcdaniel/mcdaniel.sublime-project"
+			],
+			[
+				"oct",
+				"/Users/phuzion/Sites/octopoda/octopoda.sublime-project"
+			],
+			[
+				"oco",
+				"/Users/phuzion/Sites/octopoda/octopoda.sublime-project"
+			],
+			[
+				"aud",
+				"/Users/phuzion/Sites/audioguy/audioguy.sublime-project"
+			],
+			[
+				"r",
+				"/Users/phuzion/Sites/renal/renal.sublime-project"
+			],
+			[
+				"back",
+				"/Users/phuzion/Sites/blackink/blackink.sublime-project"
+			],
+			[
+				"ang",
+				"/Users/phuzion/Sites/angela/angela.sublime-project"
+			],
+			[
+				"ter",
+				"/Users/phuzion/Sites/Teresa/teresa.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 411.0,
+	"status_bar_visible": true
+}
